@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -8,23 +8,6 @@ body {
   background-color: #DEF2F1;
   color: #17252A;
 }
-
-.nav-links {
-  justify-content: center;
-  text-align: center;
-  letter-spacing: 10px;
-  padding-top: 10px;
-}
-
-.hero-title {
-  text-align: center;
-  font-size: 64px;
-}
-
-.hero-sub {
-  text-align: center;
-}
-
 article,
 aside,
 details,
