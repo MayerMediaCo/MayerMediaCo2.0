@@ -8,10 +8,10 @@ import Logo from '../../assets/mmc_logo.png'
 const Header = () => (
   <div className='hero'>
     <div className='nav-links'>
-      <Link>About |</Link>
-      <Link>Services |</Link>
-      <Link>Blog |</Link>
-      <Link>Contact</Link>
+      <Link to='/about'>About |</Link>
+      <Link to='/services'>Services |</Link>
+      <Link to='/blog'>Blog |</Link>
+      <Link to='/contact'>Contact</Link>
     </div>
     <div>
       <img
