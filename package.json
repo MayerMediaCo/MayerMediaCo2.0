@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "boxicons": "^1.6.0",
     "gatsby": "next",
     "gatsby-link": "^1.6.45",
     "gatsby-plugin-google-fonts": "0.0.4",
