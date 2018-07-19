@@ -14,14 +14,16 @@ const Header = () => (
       <Link to='/contact'>Contact</Link>
     </div>
     <div>
-      <img
-        src={Logo}
-        alt=""
-        style={{
-        height: 100,
-        width: 100,
-        margin: '0 50px'
-      }}/>
+      <Link to='/'>
+        <img
+          src={Logo}
+          alt=""
+          style={{
+          height: 100,
+          width: 100,
+          margin: '15px 50px'
+        }}/>
+      </Link>
     </div>
     <h1 className='hero-title'>
       Mayer Media Co.
