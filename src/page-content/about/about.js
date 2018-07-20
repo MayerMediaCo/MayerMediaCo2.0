@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './styles.css'
-
 const about = () => (
   <div className='container'>
     <div className='column'>

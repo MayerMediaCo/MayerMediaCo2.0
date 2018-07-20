@@ -1,7 +1,7 @@
 import React from 'react'
 
 import 'boxicons/css/boxicons.min.css'
-import './styles.css'
+import './styles.sass'
 
 const Footer = () => (
   <footer className='footer'>

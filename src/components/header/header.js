@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import './styles.css'
-
 import Logo from '../../assets/mmc_logo.png'
 
 const Header = () => (

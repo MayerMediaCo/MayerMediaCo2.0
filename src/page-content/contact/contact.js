@@ -1,8 +1,7 @@
 import React from 'react'
 
-import ContactForm from '../../contact-form/contact-form'
+import ContactForm from '../../components/contact-form/contact-form'
 
-import './styles.css'
 
 const contact = () => (
   <div className='container'>
