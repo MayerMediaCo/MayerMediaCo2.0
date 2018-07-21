@@ -1,11 +1,13 @@
 import React from 'react'
 
 import Layout from '../components/layout/layout'
+import Header from '../components/header/header'
 
 import Computer from '../assets/computer.png'
 
 const IndexPage = () => (
   <Layout>
+    <Header/>
     <section className="section">
       <div className="container">
         <div className="columns">

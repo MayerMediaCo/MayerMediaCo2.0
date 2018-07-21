@@ -1,12 +1,8 @@
 import React from 'react'
 
-import Navbar from '../navbar/navbar'
-
 const Header = () => (
   <section className='hero header is-medium'>
-    <div className=' container hero-head'>
-      <Navbar/>
-    </div>
+    <div className=' container hero-head'></div>
     <div className='hero-body'>
       <div className='container has-text-centered'>
         <h1 className='title'>
