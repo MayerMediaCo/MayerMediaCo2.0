@@ -1,35 +1,23 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
-import Logo from '../../assets/mmc_logo.png'
+import Navbar from '../navbar/navbar'
 
 const Header = () => (
-  <div className='hero'>
-    <div className='nav-links'>
-      <Link to='/about'>About |</Link>
-      <Link to='/services'>Services |</Link>
-      <Link to='/blog'>Blog |</Link>
-      <Link to='/contact'>Contact</Link>
+  <section className='hero header is-medium'>
+    <div className='hero-head'>
+      <Navbar />
     </div>
-    <div>
-      <Link to='/'>
-        <img
-          src={Logo}
-          alt=""
-          style={{
-          height: 100,
-          width: 100,
-          margin: '15px 50px'
-        }}/>
-      </Link>
+    <div className='hero-body'>
+      <div className='container has-text-centered'>
+        <h1 className='title'>
+          Mayer Media Co.
+        </h1>
+        <h3 className='subtitle'>
+          Design | Development | Marketing
+        </h3>
+      </div>
     </div>
-    <h1 className='hero-title'>
-      Mayer Media Co.
-    </h1>
-    <h3 className='hero-sub'>
-      Design | Development | Marketing
-    </h3>
-  </div>
+  </section>
 )
 
 export default Header

@@ -8,6 +8,7 @@ import Footer from '../footer/footer'
 
 import './layout.sass'
 
+
 const Layout = ({ children, data }) => (
   <StaticQuery
     query={graphql`

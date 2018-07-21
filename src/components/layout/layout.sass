@@ -1,8 +1,64 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-$family-sans-serif: 'Raleway', sans-serif
+$gunmetal: #17252A
+$myrtle: #2B7A78
+$keppel: #3AAFA9
+$azure-white: #DEF2F1
+$off-white: #FEFFFF
 
-body 
-  background-color: #DEF2F1
+$family-sans-serif: 'Raleway', sans-serif
+$body-background-color: #DEF2F1
+
+$navbar-item-color: $gunmetal
+$navbar-divider-background-color: $keppel
+$navbar-background-color: $off-white
+
+.header
+  color: $gunmetal
+  background-color: $off-white
+  border-bottom: $keppel solid 1px
+  h1
+    font-size: 64px
+    letter-spacing: 8px
+    font-weight: 600
+    margin: 0px
+  h3
+    font-size: 20px
+    letter-spacing: 7px
+    font-weight: 200
+    font-style: italic
+    padding-top: 50px
+
+nav
+  font-size: 18px
+  font-weight: 200
+  .navbar-brand
+    letter-spacing: 5px
+  .nav-icon
+    color: $keppel
+    background-color: $gunmetal
+    margin: 10px
+    font-size: 18px
+  .nav-image
+    margin: 10px
+
+.content
+  margin-bottom: 25px
+
+.content-title
+  font-weight: 200
+  letter-spacing: 5px
+  font-style: italic
+
+.content-body
+  font-weight: 200
+  line-height: 1.5
+
+.footer-icon 
+  color: $keppel
+  background-color: $gunmetal
+  margin: 25px
+  font-size: 24px
+
 
 @import "~bulma"
