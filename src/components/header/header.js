@@ -4,8 +4,8 @@ import Navbar from '../navbar/navbar'
 
 const Header = () => (
   <section className='hero header is-medium'>
-    <div className='hero-head'>
-      <Navbar />
+    <div className=' container hero-head'>
+      <Navbar/>
     </div>
     <div className='hero-body'>
       <div className='container has-text-centered'>

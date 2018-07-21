@@ -35,14 +35,13 @@ class Navbar extends React.Component {
           : 'navbar-menu'}>
           <div className="navbar-start">
             <div className="navbar-item">
-              <Link to='/about'>
+              <Link to='/about' className='navbar-item'>
                 About
               </Link>
             </div>
-            <hr className="navbar-divider"/>
 
             <div className="navbar-item has-dropdown is-hoverable">
-              <Link to='/services' className='navbar-link'>
+              <Link to='/services' className='navbar-item navbar-link'>
                 Services
               </Link>
               <div className="navbar-dropdown is-boxed">
@@ -58,19 +57,16 @@ class Navbar extends React.Component {
               </div>
             </div>
 
-            <hr className="navbar-divider"/>
             <div className="navbar-item">
-              <Link to='/blog'>
+              <Link to='/blog' className='navbar-item'>
                 Blog
               </Link>
             </div>
-            <hr className="navbar-divider"/>
             <div className="navbar-item">
-              <Link to='/contact'>
+              <Link to='/contact' className='navbar-item'>
                 Contact
               </Link>
             </div>
-            <hr className="navbar-divider"/>
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
