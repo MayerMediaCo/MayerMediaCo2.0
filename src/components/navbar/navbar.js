@@ -6,7 +6,7 @@ import Logo from '../../assets/mmc_logo.png'
 class Navbar extends React.Component {
 
   state = {
-    isActive: false,
+    isActive: false
   }
 
   toggleNav = () => {
@@ -17,13 +17,11 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="navbar is-transparent"
-          aria-label="main navigation">
+      <nav className="navbar is-transparent" aria-label="main navigation">
         <div className="navbar-brand">
           <Link to='/' className="navbar-item">
-            <img className='nav-image'
-              src={Logo} alt="Mayer Media Co"/>
-              Mayer Media Co
+            <img className='nav-image' src={Logo} alt="Mayer Media Co"/>
+            Mayer Media Co
           </Link>
           <button className="button navbar-burger" onClick={this.toggleNav}>
             <span></span>
@@ -31,46 +29,78 @@ class Navbar extends React.Component {
             <span></span>
           </button>
         </div>
-        <div className={ this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
+        <div
+          className={this.state.isActive
+          ? 'navbar-menu is-active'
+          : 'navbar-menu'}>
           <div className="navbar-start">
-            <Link to='/about' className="navbar-item">
-              About
-            </Link>
-            <hr className="navbar-divider" />
-            <Link to='/services' className="navbar-item">
-              Services
-            </Link>
-            <hr className="navbar-divider" />
-            <Link to='/blog' className="navbar-item">
-              Blog
-            </Link>
-            <hr className="navbar-divider" />
-            <Link to='/contact' className="navbar-item">
-              Contact
-            </Link>
-            <hr className="navbar-divider" />
+            <div className="navbar-item">
+              <Link to='/about'>
+                About
+              </Link>
+            </div>
+            <hr className="navbar-divider"/>
+
+            <div className="navbar-item has-dropdown is-hoverable">
+              <Link to='/services' className='navbar-link'>
+                Services
+              </Link>
+              <div className="navbar-dropdown is-boxed">
+                <Link to='/services/design' className='navbar-item'>
+                  Design
+                </Link>
+                <Link to='/services/development' className='navbar-item'>
+                  Development
+                </Link>
+                <Link to='/services/marketing' className='navbar-item'>
+                  Marketing
+                </Link>
+              </div>
+            </div>
+
+            <hr className="navbar-divider"/>
+            <div className="navbar-item">
+              <Link to='/blog'>
+                Blog
+              </Link>
+            </div>
+            <hr className="navbar-divider"/>
+            <div className="navbar-item">
+              <Link to='/contact'>
+                Contact
+              </Link>
+            </div>
+            <hr className="navbar-divider"/>
           </div>
           <div className="navbar-end">
-            <Link to='#' className="navbar-item">
-              <span className="icon">
-                <i className="nav-icon bx bxl-twitter bx-border-circle"></i>
-              </span>
-            </Link>
-            <Link to='#' className="navbar-item">
-              <span className="icon">
-                <i className="nav-icon bx bxl-instagram bx-border-circle"></i>
-              </span>
-            </Link>
-            <Link to='#' className="navbar-item">
-              <span className="icon">
-                <i className="nav-icon bx bxl-github bx-border-circle"></i>
-              </span>
-            </Link>
-            <Link to='#' className="navbar-item">
-              <span className="icon">
-                <i className="nav-icon bx bxl-linkedin bx-border-circle"></i>
-              </span>
-            </Link>
+            <div className="navbar-item">
+              <Link to='#'>
+                <span className="icon">
+                  <i className="nav-icon bx bxl-twitter bx-border-circle"></i>
+                </span>
+              </Link>
+            </div>
+            <div className="navbar-item">
+              <Link to='#'>
+                <span className="icon">
+                  <i className="nav-icon bx bxl-instagram bx-border-circle"></i>
+                </span>
+              </Link>
+            </div>
+            <div className="navbar-item">
+              <Link to='#'>
+                <span className="icon">
+                  <i className="nav-icon bx bxl-github bx-border-circle"></i>
+                </span>
+              </Link>
+            </div>
+            <div className="navbar-item">
+              <Link to='#'>
+                <span className="icon">
+                  <i className="nav-icon bx bxl-linkedin bx-border-circle"></i>
+                </span>
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
