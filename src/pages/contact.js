@@ -7,12 +7,13 @@ import ContactForm from '../components/contact-form/contact-form'
 const contact = () => (
   <Layout>
     <div className='container'>
-      <div className='message'>
-        <h1>Get in touch</h1>
-        <p>
+      <div className='has-text-centered'>
+        <h1 className='title'>Get in touch</h1>
+        <h3 className='subtitle'>
           Tell me about what you would like to accomplish with your brand.
-        </p>
+        </h3>
       </div>
+
       <hr className='border'/>
       <ContactForm/>
     </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../../components/layout/layout'
 
-const Design = () => (
+const Research = () => (
   <Layout>
     <div className='container'>
       <div className='column'>
@@ -47,4 +47,4 @@ const Design = () => (
   </Layout>
 )
 
-export default Design
+export default Research

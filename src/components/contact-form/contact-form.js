@@ -1,51 +1,75 @@
 import React from 'react'
 
-import './styles.sass'
-
 const ContactForm = () => (
-    <form
-      name="contact"
-      method="post"
-      action="/thanks/"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field">
+  <form
+    name="contact"
+    method="post"
+    action="/thanks/"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field">
 
-      <input type="hidden" name="form-name" value="contact"/>
-      <p hidden>
-        <label>
-          Don’t fill this out:{" "}
-          <input name="bot-field"/>
-        </label>
-      </p>
+    <input type="hidden" name="form-name" value="contact"/>
+    <p hidden>
+      <label>
+        Don’t fill this out:{" "}
+        <input name="bot-field"/>
+      </label>
+    </p>
 
-      <span className="control">
-        <input className="input" type="text" placeholder="First Name"/>
-      </span>
-      <span className="control">
-        <input className="input" type="text" placeholder="Last Name"/>
-      </span>
+    <div className="field is-horizontal">
+      <div className="field is-expanded column">
+        <div className="control has-icons-left">
+          <input type="text" className="input" placeholder='Name'/>
+          <span className='icon is-medium is-left'>
+            <i className="bx bx-user"></i>
+          </span>
+        </div>
+      </div>
+      <div className="field is-expanded column">
+        <div className="control has-icons-left">
+          <input type="text" className="input" placeholder='Phone Number'/>
+          <span className='icon is-medium is-left'>
+            <i className="bx bx-phone"></i>
+          </span>
+        </div>
+      </div>
+    </div>
 
-      <span className="control">
-        <input className="input" type="email" placeholder="Email"/>
-      </span>
-      <span className="control">
-        <input className="input" type="text" placeholder="Phone"/>
-      </span>
+    <div className="field is-horizontal">
+      <div className="field is-expanded column">
+        <div className="control has-icons-left">
+          <input type="email" className="input" placeholder='E-Mail Address'/>
+          <span className='icon is-medium is-left'>
+            <i className="bx bx-envelope"></i>
+          </span>
+        </div>
+      </div>
+      <div className="field is-expanded column">
+        <div className="control has-icons-left">
+          <input type="email" className="input" placeholder='Company / Organization'/>
+          <span className='icon is-medium is-left'>
+            <i className="bx bx-building"></i>
+          </span>
+        </div>
+      </div>
+    </div>
 
-        <span className="control">
-          <input className="input" type="text" placeholder="Website"/>
-        </span>
-        <span className="control">
-          <input className="input" type="text" placeholder="Company"/>
-        </span>
+    <div className="field is-expanded column">
+      <div className="control">
+        <textarea
+          className='textarea'
+          placeholder='What are you trying to accomplish?'
+          rows="10"></textarea>
+      </div>
+    </div>
 
-        <span className="control">
-          <textarea className="textarea" placeholder="Tell me about your project" rows="10"/>
-        </span>
-      <span className='control'>
-      <input className='submit-button' type="submit" value="Submit"/>
-      </span>
-    </form>
+    <div className="field column">
+      <div className="control">
+        <input type="submit" value="Submit" className="button form-button"/>
+      </div>
+    </div>
+
+  </form>
 )
 
 export default ContactForm

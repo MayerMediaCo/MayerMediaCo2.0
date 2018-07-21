@@ -25,7 +25,7 @@ const services = () => (
         <div className='columns'>
           <div className="card column is-6">
             <div className="card-header">
-              <Link to='#' className='card-header-title is-centered'>
+              <Link to='/design' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bxs-layout bx-border-circle"></i>
                   Design</h3>
@@ -54,14 +54,14 @@ const services = () => (
             </div>
             <footer className="card-footer">
               <div className="card-footer-item">
-                <Link to='#'>Find Out More</Link>
+                <Link to='/design'>Find Out More</Link>
                 <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
               </div>
             </footer>
           </div>
           <div className="card column is-6">
             <div className="card-header">
-              <Link to='#' className='card-header-title is-centered'>
+              <Link to='/development' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bx-code-curly bx-border-circle"></i>
                   Development</h3>
@@ -90,7 +90,7 @@ const services = () => (
             </div>
             <footer className="card-footer">
               <div className="card-footer-item">
-                <Link to='#'>Find Out More</Link>
+                <Link to='/development'>Find Out More</Link>
                 <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
               </div>
             </footer>
@@ -100,7 +100,7 @@ const services = () => (
         <div className='columns'>
           <div className="card column is-6">
             <div className="card-header">
-              <Link to='#' className='card-header-title is-centered'>
+              <Link to='/marketing' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bx-trending-up bx-border-circle"></i>
                   Marketing</h3>
@@ -129,14 +129,14 @@ const services = () => (
             </div>
             <footer className="card-footer">
               <div className="card-footer-item">
-                <Link to='#'>Find Out More</Link>
+                <Link to='/marketing'>Find Out More</Link>
                 <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
               </div>
             </footer>
           </div>
           <div className="card column is-6">
             <div className="card-header">
-              <Link to='#' className='card-header-title is-centered'>
+              <Link to='/research-and-analytics' className='card-header-title is-centered'>
                 <h3 className=''>
                   <i className="card-header-icon bx bx-globe bx-border-circle"></i>
                   Research and Analytics</h3>
@@ -165,7 +165,7 @@ const services = () => (
             </div>
             <footer className="card-footer">
               <div className="card-footer-item">
-                <Link to='#'>Find Out More</Link>
+                <Link to='/research-and-analytics'>Find Out More</Link>
                 <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
               </div>
             </footer>

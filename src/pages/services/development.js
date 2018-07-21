@@ -2,7 +2,7 @@ import React from 'react'
 
 import Layout from '../../components/layout/layout'
 
-const Marketing = () => (
+const Development = () => (
   <Layout>
     <div className='container'>
       <div className='column'>
@@ -47,4 +47,4 @@ const Marketing = () => (
   </Layout>
 )
 
-export default Marketing
+export default Development
