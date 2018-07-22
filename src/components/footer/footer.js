@@ -1,7 +1,5 @@
 import React from 'react'
 
-import 'boxicons/css/boxicons.min.css'
-
 const Footer = () => (
   <footer className='has-text-centered'>
     <div>

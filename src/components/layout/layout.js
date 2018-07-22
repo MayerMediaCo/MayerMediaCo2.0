@@ -6,6 +6,8 @@ import { StaticQuery, graphql } from "gatsby"
 import Navbar from '../navbar/navbar'
 import Footer from '../footer/footer'
 
+import 'boxicons/css/boxicons.min.css'
+
 import './layout.sass'
 
 
