@@ -9,13 +9,23 @@ $off-white: #FEFFFF
 $family-sans-serif: 'Raleway', sans-serif
 $body-background-color: #DEF2F1
 
+$button-hover-color: $gunmetal
+$button-hover-border-color: $keppel
+$button-color: $gunmetal
+$button-background-color: $off-white
+$button-border-color: $gunmetal
+
 $navbar-item-color: $gunmetal
 $navbar-divider-background-color: $keppel
 $navbar-background-color: $off-white
 $navbar-dropdown-background-color: $off-white
 $navbar-dropdown-arrow: $gunmetal
-$navbar-item-hover-color: $keppel !default
-$navbar-item-active-color: $keppel !default
+$navbar-item-hover-color: $keppel
+$navbar-item-active-color: $keppel
+
+$content-blockquote-background-color: $off-white
+$content-blockquote-border-left: 5px solid $keppel
+$content-blockquote-padding: 1.25em 1.5em
 
 .header
   color: $gunmetal
@@ -65,15 +75,57 @@ nav
   font-weight: 100
   font-style: oblique
 
+.about-dark-block
+  background-color: $gunmetal
+  color: $off-white
+
+.about-content-block
+  top: 50%
+  margin: auto
+
+.about-block-quote
+  font-size: 24px
+
 #call-to-action
-  background-color: $myrtle
+  background-color: $off-white
   width: 100%
   h1
-    color: $azure-white
-    font-size: 48px
-    padding: 25px
-    margin-bottom: 50px
-    
+    color: $gunmetal
+    font-size: 36px
+  h3
+    color: $gunmetal
+    font-size: 24px
+  p
+    color: $gunmetal
+    font-size: 18px
+    margin: 25px 0
+
+.contact-project
+  font-size: 1.5em
+  color: $myrtle
+  margin-bottom: 0.8888em
+  font-weight: 600
+
+.social-contact
+  margin: 50px
+
+.email-contact
+  margin: 50px
+.email-title
+  padding: 15px
+  font-size: 1.75em
+
+.blog-card-title
+  padding: 10px
+  color: $keppel
+  font-size: 24px
+  
+.blog-meta
+  margin: 10px
+  border-bottom: 1px solid $keppel
+  font-weight: 200
+  font-style: italic
+
 
 .footer-icon 
   color: $keppel
@@ -82,10 +134,11 @@ nav
   font-size: 24px
 
 hr.border
-  border: 0;	
-  height: 1px;	
-  background-image: linear-gradient(to right, rgba(58, 175, 169, 0), rgba(58, 175, 169, 1), rgba(58, 175, 169, 0));	
+  border: 0
+  height: 1px
+  background-image: linear-gradient(to right, rgba(58, 175, 169, 0), rgba(58, 175, 169, 1), rgba(58, 175, 169, 0))	
 
+button:hover
 input[type='submit']:hover,
 textarea:focus,
 input:focus 

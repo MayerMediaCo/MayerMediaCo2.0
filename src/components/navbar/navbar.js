@@ -73,6 +73,11 @@ class Navbar extends React.Component {
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
+              <Link to='/start-your-project'>
+                Start Your Project
+              </Link>
+            </div>
+            <div className="navbar-item">
               <Link to='#'>
                 <span className="icon">
                   <i className="nav-icon bx bxl-twitter bx-border-circle"></i>
@@ -96,7 +101,7 @@ class Navbar extends React.Component {
             <div className="navbar-item">
               <Link to='#'>
                 <span className="icon">
-                  <i className="nav-icon bx bxl-linkedin bx-border-circle"></i>
+                  <i className="nav-icon bx bxl-facebook bx-border-circle"></i>
                 </span>
               </Link>
             </div>
