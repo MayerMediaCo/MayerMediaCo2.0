@@ -23,7 +23,7 @@ const services = () => (
           <hr className="border"/>
 
           <div className='columns'>
-            <div className="card column is-6">
+            <div className="card column">
               <div className="card-header">
                 <Link to='/services/design' className='card-header-title is-centered'>
                   <h3 className=''>
@@ -58,7 +58,7 @@ const services = () => (
                 </div>
               </footer>
             </div>
-            <div className="card column is-6">
+            <div className="card column">
               <div className="card-header">
                 <Link to='/services/development' className='card-header-title is-centered'>
                   <h3 className=''>
@@ -96,7 +96,7 @@ const services = () => (
           </div>
 
           <div className='columns'>
-            <div className="card column is-6">
+            <div className="card column">
               <div className="card-header">
                 <Link to='/services/marketing' className='card-header-title is-centered'>
                   <h3 className=''>
@@ -131,7 +131,7 @@ const services = () => (
                 </div>
               </footer>
             </div>
-            <div className="card column is-6">
+            <div className="card column">
               <div className="card-header">
                 <Link
                   to='/services/research-and-analytics'
