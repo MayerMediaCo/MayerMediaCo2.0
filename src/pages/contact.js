@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 
 import Layout from '../components/layout/layout'
 import CallToAction from '../components/call-to-action/call-to-action'
+import GSNButton from '../components/buttons/get-started-now'
 
 const contact = () => (
   <Layout>
@@ -20,10 +21,7 @@ const contact = () => (
 
         <div>
           <h3 className='contact-project has-text-centered'>Looking For A Quote?</h3>
-          <div className='has-text-centered'>
-            <Link to='/start-your-project' className='button is-medium is-rounded'>Get Started Now
-            </Link>
-          </div>
+          <GSNButton/>
         </div>
 
         <div className="social-contact">
@@ -85,7 +83,7 @@ const contact = () => (
             found?
           </p>
           <div className="columns is-centered">
-            <div className="column is-half is-narrow">
+            <div className="column is-half">
               <div className="card">
                 <div className="card-title">
                   <h3 className='email-title has-text-centered'>

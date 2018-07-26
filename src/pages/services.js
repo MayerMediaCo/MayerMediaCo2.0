@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 
 import Layout from '../components/layout/layout'
 import CallToAction from '../components/call-to-action/call-to-action'
+import GSNButton from '../components/buttons/get-started-now'
 
 const services = () => (
   <Layout>
@@ -16,10 +17,7 @@ const services = () => (
             ea totam explicabo. Consequuntur ab delectus earum alias! Incidunt alias nihil
             sed impedit deleniti aut maxime nemo cupiditate.</p>
           <p className='has-text-centered is-size-5'>Already Know what you need?</p>
-          <div className='has-text-centered'>
-            <Link to='/start-your-project' className='button is-medium is-rounded'>Get Started Now
-            </Link>
-          </div>
+          <GSNButton/>
           <hr className="border"/>
 
           <div className='columns'>

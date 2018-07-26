@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 import Computer from '../../assets/computer.png'
 
-const BlogCard = () => (
+const BlogCard = ({data}) => (
   <div className='card'>
     <div className="card-image">
       <figure className="image is-5by3">

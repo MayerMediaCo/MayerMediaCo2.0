@@ -24,15 +24,12 @@ const blog = () => (
         <div className="columns">
           <div className="column"><BlogCard/></div>
           <div className="column"><BlogCard/></div>
-          <div className="column"><BlogCard/></div>
         </div>
         <div className="columns">
           <div className="column"><BlogCard/></div>
           <div className="column"><BlogCard/></div>
-          <div className="column"><BlogCard/></div>
         </div>
         <div className="columns">
-          <div className="column"><BlogCard/></div>
           <div className="column"><BlogCard/></div>
           <div className="column"><BlogCard/></div>
         </div>
