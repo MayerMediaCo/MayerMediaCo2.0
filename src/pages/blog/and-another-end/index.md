@@ -1,8 +1,10 @@
 ---
-title: "And another end"
-path: "/drafts/and-another-end/"
+title: "And Another End"
+path: "/blog/and-another-end/"
 date: "2016-12-25T00:00:00.000Z"
-draft: true
+draft: false
+tags: '#social'
+author: 'Danny Mayer'
 ---
 
 Aw man! What a year! So many great experiences, so many mixed feelings!
