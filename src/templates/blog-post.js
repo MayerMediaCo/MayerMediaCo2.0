@@ -6,43 +6,20 @@ export default({data}) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div
-        style={{
-        margin: `0 auto`,
-        position: 'relative',
-        maxWidth: '960px'
-      }}>
-        <h1
-          style={{
-          fontSize: '2rem',
-          textAlign: 'center',
-          margin: '10px 0',
-          color: '#2B7A78'
-        }}>{post.frontmatter.title}</h1>
-        <h2
-          style={{
-          float: 'right',
-          fontSize: '1.25rem',
-          margin: '5px 0',
-          color: '#3AAFA9'
-        }}>{post.frontmatter.date}</h2>
-        <h2
-          style={{
-          float: 'left',
-          fontSize: '1.25rem',
-          margin: '5px 0',
-          color: '#3AAFA9'
-        }}>{post.frontmatter.author}</h2>
-        <div style={{
-          clear: 'both'
-        }}></div>
-        <hr
-          style={{
-          border: '0',
-          height: '1px',
-          backgroundImage: 'linear-gradient(to right, rgba(58, 175, 169, 0), rgba(58, 175, 169, 1), rgba(58, 175, 169, 0))'
-        }}/>
-        <div dangerouslySetInnerHTML={{
+      <div className='container'>
+        <h1 className='blog-title has-text-centered'>{post.frontmatter.title}</h1>
+        <div className="columns">
+          <div className="column">
+            <h2 className="blog-sub-text">{post.frontmatter.date}</h2>
+          </div>
+          <div className="column">
+            <h2 className="blog-sub-text has-text-right">{post.frontmatter.author}</h2>
+          </div>
+        </div>
+        <hr className='border'/>
+        <article
+          className='mainPostStyle'
+          dangerouslySetInnerHTML={{
           __html: post.html
         }}/>
       </div>
@@ -50,7 +27,7 @@ export default({data}) => {
   )
 }
 
-export const query = graphql `
+export const blogPostQuery = graphql `
   query($slug: String!) {
     markdownRemark(fields: {
       slug: {eq: $slug}}) 
@@ -60,6 +37,7 @@ export const query = graphql `
         title
         date(formatString: "MMMM DD YYYY")
         author
+        path
       }
     }
   }

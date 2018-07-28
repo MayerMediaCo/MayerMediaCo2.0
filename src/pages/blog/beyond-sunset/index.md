@@ -7,9 +7,11 @@ tags: '#social'
 author: 'Danny Mayer'
 ---
 
-#Ah man, what a year! 2015 has to be my best. Last year I failed to write my resolution. But since that year went so good, I thought not to miss write one now.
+# Ah man, what a year! 2015 has to be my best
 
-2015 in review:
+Last year I failed to write my resolution. But since that year went so good, I thought not to miss write one now
+
+* 2015 in review:
 
 * I've joined [Goodvidio](https://goodvid.io) and that was the best decision I made in 2015. Goodvidio is getting bigger and bigger and that pushes me to become a better programmer and a better professional.
 * Lots of travelling. I went to Sofia, Brussels, Cyprus and Athens. Not to mention the usual snowboarding weekend road trips. Unfortunately, our trip to Paris has been canceled due to [November's Paris attack](https://en.wikipedia.org/wiki/November_2015_Paris_attacks). Won't miss next time.
@@ -17,13 +19,10 @@ author: 'Danny Mayer'
 * Lots of reading. 2015 wasn't so much of tech reading like the years before. I've read a lot of [classics](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four), as much as [literature](https://en.wikipedia.org/wiki/The_Saviors_of_God) and [other](https://37signals.com/rework/) [interesting](http://zerotoonebook.com/) [stuff](https://en.wikipedia.org/wiki/The_Shock_Doctrine).
 * I've actively engaged with the local [Nodejs meetup](http://www.meetup.com/Thessaloniki-Node-js-Meetup/) and helped a lot on the processes. Also, shooting and directing the [promo](https://vimeo.com/146544394) [videos](https://vimeo.com/138629583) was so much fun.
 
-<br/>
 2015 was a blast for me and I didn't even had any goals set. The only goal was to take as much as I could out of it. But now, I want 2016 to be more structured and goal oriented.
 
-> “If you fail to plan, you are planning to fail!”
-
+> “If you fail to plan, you are planning to fail
 > Benjamin Franklin
-
 
 And my goals for 2016:
 
@@ -33,8 +32,6 @@ And my goals for 2016:
 * It's been a long time now since I wanted to be in a better physical shape. Unfortunately, 2015 wasn't the year for that. I am following a good diet and I am not eating much of junk no more. But I really need  to invest on the weight lifting more. 2016 will be the year for that.
 
 > Laugh at perfection. It's boring and keeps you from being done.
-
 > The Cult of Done Manifesto
-
 
 What are your goals?
