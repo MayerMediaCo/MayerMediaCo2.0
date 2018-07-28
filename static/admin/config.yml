@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: MayerMediaCo/MayerMediaCo2.0
+  branch: master
 
 publish_mode: editorial_workflow
 media_folder: static/img

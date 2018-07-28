@@ -1,35 +1,51 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 $gunmetal: #17252A
-$myrtle: #2B7A78
+$gunmetal-dark: #0E171A
+$gunmetal-light: #243A42
 $keppel: #3AAFA9
+$keppel-dark: #2E8A85
+$keppel-light: #57C7C1
 $azure-white: #DEF2F1
-$off-white: #FEFFFF
+$azure-white-dark: #d0eceb
+$azure-white-light: #f0f9f9
 
 $family-sans-serif: 'Raleway', sans-serif
-$body-background-color: #DEF2F1
+$body-background-color: $azure-white
+$link: $gunmetal-light
 
 $button-hover-color: $gunmetal
 $button-hover-border-color: $keppel
 $button-color: $gunmetal
-$button-background-color: $off-white
+$button-background-color: $azure-white-light
 $button-border-color: $gunmetal
 
 $navbar-item-color: $gunmetal
 $navbar-divider-background-color: $keppel
-$navbar-background-color: $off-white
-$navbar-dropdown-background-color: $off-white
+$navbar-background-color: $azure-white-light
+$navbar-dropdown-background-color: $azure-white-light
 $navbar-dropdown-arrow: $gunmetal
 $navbar-item-hover-color: $keppel
 $navbar-item-active-color: $keppel
 
-$content-blockquote-background-color: $off-white
+$content-blockquote-background-color: $azure-white-light
 $content-blockquote-border-left: 5px solid $keppel
 $content-blockquote-padding: 1.25em 1.5em
 
+$card-background-color: $azure-white-light
+$card-shadow: 5px 3px 3px 1px rgba(208,236,235,1);
+
+$title-color: $gunmetal-dark !default
+$title-weight: 600
+$title-line-height: 1.25 !default
+$subtitle-color: $gunmetal-light
+$subtitle-weight: $weight-light
+$subtitle-line-height: 1.5 !default
+$weight-light: 100
+
 .header
   color: $gunmetal
-  background-color: $off-white
+  background-color: $azure-white-light
   border-bottom: $keppel solid 1px
   h1
     font-size: 64px
@@ -57,7 +73,7 @@ nav
     margin: 10px
 
 .hero
-  background-color: #feffff
+  background-color: $azure-white-light
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%233aafa9' fill-opacity='0.1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E")
 
 .content
@@ -69,12 +85,16 @@ nav
 .content-body
   font-weight: 200
   line-height: 1.5
+
 .card
   margin: 0.75rem
 .card-list
   font-weight: 200
   font-style: italic
   font-size: 0.75rem
+
+.blog-card
+  width: 
 
 .content-subscript
   font-size: 14px
@@ -83,7 +103,7 @@ nav
 
 .about-dark-block
   background-color: $gunmetal
-  color: $off-white
+  color: $azure-white-light
 
 .about-content-block
   top: 50%
@@ -93,7 +113,7 @@ nav
   font-size: 24px
 
 #call-to-action
-  background-color: $off-white
+  background-color: $azure-white-light
   width: 100%
   h1
     color: $gunmetal
@@ -108,7 +128,7 @@ nav
 
 .contact-project
   font-size: 1.5em
-  color: $myrtle
+  color: $keppel-dark
   margin-bottom: 0.8888em
   font-weight: 600
 
@@ -143,10 +163,10 @@ nav
 
 .mainPostStyle
   margin-top: 2.5em
-  color: $myrtle
+  color: $keppel-dark
   blockquote
     color: rgba(43, 122, 120, 0.5)
-    border-left: 2px solid $myrtle
+    border-left: 2px solid $keppel-dark
     padding-left: 20px
     margin-left: 0
     font-size: 1.25em

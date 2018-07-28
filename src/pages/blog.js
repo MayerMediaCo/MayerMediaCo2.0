@@ -1,58 +1,47 @@
-import React from 'react'
-import {graphql} from 'gatsby'
+import React from "react"
+import { graphql } from "gatsby"
 
 import Layout from '../components/layout/layout'
-import CallToAction from '../components/call-to-action/call-to-action'
-import BlogCard from '../components/blog-card/blog-card'
+import PostLink from "../components/post-link/post-link"
 
-export default function Blog({data}) {
-  return (
-    <Layout>
-      <div className='container'>
-        <section className="section">
-          <div className="content">
-            <div className='has-text-centered'>
-              <h1 className='title'>Blogs and Articles</h1>
-              <h3 className='subtitle'>
-                I love to write and help people out. If you don't find what you are looking for
-                or want to suggest topics, send me an email
-              </h3>
-              <h4 className='has-text-centered'>
-                <a href={`mailto:mayermediaco@gmail.com`}>mayermediaco@gmail.com</a>
-              </h4>
-              <hr className="border"/>
-            </div>
-          </div>
-          <div className="columns">
-            <div className="column"><BlogCard/></div>
-            <div className="column"><BlogCard/></div>
-          </div>
-          <div className="columns">
-            <div className="column"><BlogCard/></div>
-            <div className="column"><BlogCard/></div>
-          </div>
-          <div className="columns">
-            <div className="column"><BlogCard/></div>
-            <div className="column"><BlogCard/></div>
-          </div>
-        </section>
+const BlogListingPage = ({
+  data: {
+    allMarkdownRemark: { edges },
+  },
+}) => {
+  const Posts = edges
+    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+
+  return <Layout>
+  
+  <div className='container'>
+
+      <div className="column is-half is-inline-flex">
+        {Posts}
       </div>
-      <CallToAction/>
-    </Layout>
-  )
+
+  </div>
+
+  </Layout>
 }
 
-export const blogPostQuery = graphql `
-  query($slug: String!) {
-    markdownRemark(fields: {
-      slug: {eq: $slug}}) 
-      {
-      html
-      frontmatter {
-        title
-        date(formatString: "MMMM DD YYYY")
-        author
-        path
+export default BlogListingPage
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            path
+            title
+            tags
+          }
+        }
       }
     }
   }

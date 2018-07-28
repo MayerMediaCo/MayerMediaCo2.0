@@ -11,7 +11,8 @@ module.exports = {
       }
     },
     'gatsby-transformer-remark',
-    'gatsby-plugin-sass', {
+    'gatsby-plugin-sass',
+    `gatsby-plugin-netlify-cms`, {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [`Raleway`, `source sans pro:200i,400,600i`]
