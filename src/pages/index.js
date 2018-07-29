@@ -1,7 +1,9 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
 import Layout from '../components/layout/layout'
 import Header from '../components/header/header'
+import CTA from '../components/call-to-action/call-to-action'
 
 import Computer from '../assets/computer.png'
 
@@ -31,6 +33,90 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+
+        <section className="section">
+          <div className="columns">
+            <div className="card column">
+              <div className="card-header">
+                <Link to='/services/design' className='card-header-title is-centered'>
+                  <h3 className=''>
+                    <i className="card-header-icon bx bxs-layout bx-border-circle"></i>
+                    Design</h3>
+                </Link>
+              </div>
+              <div className="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
+                  a! Quibusdam, cum sequi?</p>
+              </div>
+              <footer className="card-footer">
+                <div className="card-footer-item">
+                  <Link to='/services/design'>Find Out More</Link>
+                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+                </div>
+              </footer>
+            </div>
+            <div className="card column">
+              <div className="card-header">
+                <Link to='/services/development' className='card-header-title is-centered'>
+                  <h3 className=''>
+                    <i className="card-header-icon bx bx-code-curly bx-border-circle"></i>
+                    Development</h3>
+                </Link>
+              </div>
+              <div className="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
+                  a! Quibusdam, cum sequi?</p>
+              </div>
+              <footer className="card-footer">
+                <div className="card-footer-item">
+                  <Link to='/services/development'>Find Out More</Link>
+                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+                </div>
+              </footer>
+            </div>
+            <div className="card column">
+              <div className="card-header">
+                <Link to='/services/marketing' className='card-header-title is-centered'>
+                  <h3 className=''>
+                    <i className="card-header-icon bx bx-trending-up bx-border-circle"></i>
+                    Marketing</h3>
+                </Link>
+              </div>
+              <div className="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
+                  a! Quibusdam, cum sequi?</p>
+              </div>
+              <footer className="card-footer">
+                <div className="card-footer-item">
+                  <Link to='/services/marketing'>Find Out More</Link>
+                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+                </div>
+              </footer>
+            </div>
+            <div className="card column">
+              <div className="card-header">
+                <Link
+                  to='/services/research-and-analytics'
+                  className='card-header-title is-centered'>
+                  <h3 className=''>
+                    <i className="card-header-icon bx bx-globe bx-border-circle"></i>
+                    Research and Analytics</h3>
+                </Link>
+              </div>
+              <div className="card-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
+                  a! Quibusdam, cum sequi?</p>
+              </div>
+              <footer className="card-footer">
+                <div className="card-footer-item">
+                  <Link to='/services/research-and-analytics'>Find Out More</Link>
+                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+                </div>
+              </footer>
+            </div>
+          </div>
+        </section>
+
         <div className="columns">
           <div className="column">
             <div className="content">
@@ -54,6 +140,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+    < CTA/>
   </Layout>
 )
 

@@ -51,8 +51,9 @@ const services = () => (
               </div>
               <footer className="card-footer">
                 <div className="card-footer-item">
-                  <Link to='/services/design'>Find Out More</Link>
-                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+                  <Link to='/services/design' className='bx-fade-right-hover'>Find Out More
+                    <i className="bx bx-chevrons-right"></i>
+                  </Link>
                 </div>
               </footer>
             </div>
@@ -86,8 +87,9 @@ const services = () => (
               </div>
               <footer className="card-footer">
                 <div className="card-footer-item">
-                  <Link to='/services/development'>Find Out More</Link>
-                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+                  <Link to='/services/development' className='bx-fade-right-hover'>Find Out More
+                    <i className="bx bx-chevrons-right"></i>
+                  </Link>
                 </div>
               </footer>
             </div>
@@ -124,8 +126,9 @@ const services = () => (
               </div>
               <footer className="card-footer">
                 <div className="card-footer-item">
-                  <Link to='/services/marketing'>Find Out More</Link>
-                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+                  <Link to='/services/marketing' className='bx-fade-right-hover'>Find Out More
+                    <i className="bx bx-chevrons-right"></i>
+                  </Link>
                 </div>
               </footer>
             </div>
@@ -161,8 +164,9 @@ const services = () => (
               </div>
               <footer className="card-footer">
                 <div className="card-footer-item">
-                  <Link to='/services/research-and-analytics'>Find Out More</Link>
-                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+                  <Link to='/services/research-and-analytics' className='bx-fade-right-hover'>Find Out More
+                    <i className="bx bx-chevrons-right"></i>
+                  </Link>
                 </div>
               </footer>
             </div>

@@ -17,7 +17,9 @@ const StartYourProject = () => (
           </div>
 
           <hr className='border'/>
-          <ContactForm/>
+          <div className="column is-three-fifths is-offset-one-fifth">
+            <ContactForm/>
+          </div>
         </div>
       </section>
     </div>

@@ -13,15 +13,31 @@ const contact = () => (
           <div className='has-text-centered'>
             <h1 className='title'>Get In Touch</h1>
             <h3 className='subtitle'>
-              If you were interested in connecting, you can find me all over the place
+              There are tons of ways to connect with me all over the place
             </h3>
             <hr className="border"/>
           </div>
         </div>
 
-        <div>
-          <h3 className='contact-project has-text-centered'>Looking For A Quote?</h3>
-          <GSNButton/>
+        <div className="email-contact">
+          <h3 className="contact-project has-text-centered">
+            Send me an E-Mail or Start Your Project</h3>
+          <div className="columns">
+            <div className="column">
+              <h3 className='contact-project has-text-centered'>
+                <i className="bx bx-envelope bx-border-circle"></i>
+                Email</h3>
+              <div className='has-text-centered'>
+                <a
+                  className='button is-medium is-rounded'
+                  href={`mailto:mayermediaco@gmail.com`}>mayermediaco@gmail.com</a>
+              </div>
+            </div>
+            <div className="column">
+              <h3 className='contact-project has-text-centered'>Looking For A Quote?</h3>
+              <GSNButton/>
+            </div>
+          </div>
         </div>
 
         <div className="social-contact">
@@ -73,34 +89,6 @@ const contact = () => (
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="email-contact">
-          <h3 className="contact-project has-text-centered">
-            Send me an E-Mail</h3>
-          <p className="has-text-centered content">
-            Have a question, Want to have a discussion, or share interesting news you have
-            found?
-          </p>
-          <div className="columns is-centered">
-            <div className="column is-half">
-              <div className="card">
-                <div className="card-title">
-                  <h3 className='email-title has-text-centered'>
-                    <i className="card-header-icon bx bx-envelope bx-border-circle"></i>
-                    Email</h3>
-                </div>
-                <div className="card-content">
-                  <div className="content">
-                    <h4 className='has-text-centered'>
-                      <a href={`mailto:mayermediaco@gmail.com`}>mayermediaco@gmail.com</a>
-                    </h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
 
       </section>

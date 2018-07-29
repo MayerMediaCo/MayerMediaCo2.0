@@ -94,9 +94,8 @@ class EmailCaptureForm extends React.Component {
 }
 
 EmailCaptureForm.defaultProps = {
-  signupMessage: "Get your audit checklist and questionairre now to see how you can improve your c" +
-      "onversion rates",
-  confirmMessage: "Thank you! Youʼll receive your audit checklist and questionairre shortly."
+  signupMessage: "Sign up for the email list to receive a free assessment checklist today!",
+  confirmMessage: "Thank you! Youʼll receive your assessment checklist shortly"
 }
 
 export default EmailCaptureForm

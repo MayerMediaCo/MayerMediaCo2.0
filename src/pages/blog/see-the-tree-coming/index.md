@@ -3,7 +3,7 @@ date: 2014-01-06
 
 title: See the Tree Coming
 seo_title: The 3 Choices We Face After Failure
-slug: see-tree-coming
+path: "/blog/see-the-tree-coming/"
 description: >
   When you hit a tree, you can blame the tree, avoid the tree, or learn why you didn't see the tree in the first place.
 
@@ -29,7 +29,7 @@ Maybe that sounds ridiculous. Of _course_ I should learn a life lesson, right?
 Unfortunately for me, at least, learning something valuable from failure hasn't
 always been easy.
 
-## The Treadmill Treadmill
+# The Treadmill Treadmill
 
 Let me try to explain with a story:
 
@@ -115,20 +115,6 @@ done _nothing_.[^starting]
 I'm no picture of perfect human health or anything, but I _can_ climb stairs
 without wheezing and I don't have any aches or pains -- that's all I really need
 to feel like I'm taking care of myself.
-
-<figure class="figure figure--center">
-  <img src="./images/jason-lengstorf-working-out.jpg" alt="Jason Lengstorf working out." />
-  <figcaption class="figure__caption">
-    One of my "get moving" activities: conditioning classes.
-    <small class="figure__attribution">
-      Credit: 
-      <a class="figure__attribution-link" 
-         href="http://www.elementalfitnesslab.com/">
-        Elemental Fitness Lab
-      </a>
-    </small>
-  </figcaption>
-</figure>
 
 ## Finding the Source
 

@@ -16,45 +16,56 @@ const ContactForm = () => (
       </label>
     </p>
 
-    <div className="field is-horizontal">
-      <div className="field is-expanded column">
-        <div className="control has-icons-left">
-          <input type="text" className="input" placeholder='Name'/>
-          <span className='icon is-medium is-left'>
-            <i className="bx bx-user"></i>
-          </span>
-        </div>
+    <div className="field">
+      <label className="label">Name</label>
+      <div className="control has-icons-left">
+        <input type="text" className="input" placeholder='Name'/>
+        <span className='icon is-medium is-left'>
+          <i className="bx bx-user"></i>
+        </span>
       </div>
-      <div className="field is-expanded column">
-        <div className="control has-icons-left">
-          <input type="text" className="input" placeholder='Phone Number'/>
-          <span className='icon is-medium is-left'>
-            <i className="bx bx-phone"></i>
-          </span>
-        </div>
+    </div>
+    <div className="field">
+      <label className="label">Phone Number</label>
+      <div className="control has-icons-left">
+        <input type="text" className="input" placeholder='Phone Number'/>
+        <span className='icon is-medium is-left'>
+          <i className="bx bx-phone"></i>
+        </span>
       </div>
     </div>
 
-    <div className="field is-horizontal">
-      <div className="field is-expanded column">
-        <div className="control has-icons-left">
-          <input type="email" className="input" placeholder='E-Mail Address'/>
-          <span className='icon is-medium is-left'>
-            <i className="bx bx-envelope"></i>
-          </span>
-        </div>
+    <div className="field">
+      <label className="label">Email</label>
+      <div className="control has-icons-left">
+        <input type="email" className="input" placeholder='E-Mail Address'/>
+        <span className='icon is-medium is-left'>
+          <i className="bx bx-envelope"></i>
+        </span>
       </div>
-      <div className="field is-expanded column">
-        <div className="control has-icons-left">
-          <input type="email" className="input" placeholder='Company / Organization'/>
-          <span className='icon is-medium is-left'>
-            <i className="bx bx-building"></i>
-          </span>
-        </div>
+    </div>
+    <div className="field">
+      <label className="label">Company / Organization</label>
+      <div className="control has-icons-left">
+        <input type="text" className="input" placeholder='Company / Organization'/>
+        <span className='icon is-medium is-left'>
+          <i className="bx bx-building"></i>
+        </span>
       </div>
     </div>
 
-    <div className="field is-expanded column">
+    <div className="field">
+      <label className="label">Website URL</label>
+      <div className="control has-icons-left">
+        <input type="text" className="input" placeholder='Company / Organization'/>
+        <span className='icon is-medium is-left'>
+          <i className="bx bx-laptop"></i>
+        </span>
+      </div>
+    </div>
+
+    <div className="field">
+      <label className="label">What are you trying to accomplish?</label>
       <div className="control">
         <textarea
           className='textarea'

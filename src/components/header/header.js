@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
 const Header = () => (
   <section className='hero header is-medium'>
@@ -9,7 +10,8 @@ const Header = () => (
           Mayer Media Co.
         </h1>
         <h3 className='subtitle'>
-          Design | Development | Marketing
+          <Link to='services'>Design | Development | Marketing
+          </Link>
         </h3>
       </div>
     </div>

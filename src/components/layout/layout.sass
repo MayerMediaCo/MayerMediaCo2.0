@@ -19,14 +19,21 @@ $button-hover-border-color: $keppel
 $button-color: $gunmetal
 $button-background-color: $azure-white-light
 $button-border-color: $gunmetal
+$button-focus-color: $keppel-light
+$button-focus-border-color: $keppel
+$button-active-color: $keppel-dark
+$button-active-border-color: $keppel-dark
+$button-text-color: $gunmetal
+$button-text-hover-background-color: $azure-white
 
 $navbar-item-color: $gunmetal
 $navbar-divider-background-color: $keppel
 $navbar-background-color: $azure-white-light
 $navbar-dropdown-background-color: $azure-white-light
 $navbar-dropdown-arrow: $gunmetal
-$navbar-item-hover-color: $keppel
-$navbar-item-active-color: $keppel
+$navbar-item-hover-color: $keppel-light
+$navbar-item-active-color: $keppel-dark
+$navbar-bottom-box-shadow-size: 5px 3px 3px 1px rgba(208,236,235,1);
 
 $content-blockquote-background-color: $azure-white-light
 $content-blockquote-border-left: 5px solid $keppel
@@ -46,7 +53,7 @@ $weight-light: 100
 .header
   color: $gunmetal
   background-color: $azure-white-light
-  border-bottom: $keppel solid 1px
+  border-bottom: $keppel-light solid 1px
   h1
     font-size: 64px
     letter-spacing: 8px
@@ -65,8 +72,8 @@ nav
   .navbar-brand
     letter-spacing: 5px
   .nav-icon
-    color: $keppel
-    background-color: $gunmetal
+    color: $keppel-light
+    background-color: $gunmetal-light
     margin: 10px
     font-size: 18px
   .nav-image
@@ -74,7 +81,8 @@ nav
 
 .hero
   background-color: $azure-white-light
-  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%233aafa9' fill-opacity='0.1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E")
+  background: radial-gradient(circle, rgba(240,249,249,1) 40%, rgba(208,236,235,0.1) 50%, rgba(240,249,249,1) 60%)
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%2357c7c1' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E")
 
 .content
   margin-bottom: 25px
@@ -92,9 +100,6 @@ nav
   font-weight: 200
   font-style: italic
   font-size: 0.75rem
-
-.blog-card
-  width: 
 
 .content-subscript
   font-size: 14px
@@ -114,17 +119,11 @@ nav
 
 #call-to-action
   background-color: $azure-white-light
+  background: radial-gradient(circle, rgba(240,249,249,1) 40%, rgba(208,236,235,0.3) 50%, rgba(240,249,249,1) 60%)
   width: 100%
-  h1
-    color: $gunmetal
-    font-size: 36px
   h3
-    color: $gunmetal
-    font-size: 24px
-  p
-    color: $gunmetal
-    font-size: 18px
-    margin: 25px 0
+    color: $gunmetal-light
+    font-size: 20px
 
 .contact-project
   font-size: 1.5em
@@ -153,7 +152,7 @@ nav
   font-style: italic
 
 .blog-title
-  font-size: 36px
+  margin: 10px 0
 
 .blog-sub-text
   font-size: 24px
@@ -186,12 +185,16 @@ nav
     font-size: 18px
   a
     color: $keppel
+  hr
+    border: 0
+    height: 1px
+    background-image: linear-gradient(to right, rgba(58, 175, 169, 0), rgba(58, 175, 169, 1), rgba(58, 175, 169, 0))	
 
 
 
 .footer-icon 
-  color: $keppel
-  background-color: $gunmetal
+  color: $keppel-light
+  background-color: $gunmetal-light
   margin: 25px
   font-size: 24px
 

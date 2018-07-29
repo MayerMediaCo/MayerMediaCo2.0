@@ -1,34 +1,38 @@
 import React from "react"
-import { graphql } from "gatsby"
+import {graphql} from "gatsby"
 
 import Layout from '../components/layout/layout'
 import PostLink from "../components/post-link/post-link"
+import CTA from '../components/call-to-action/call-to-action'
 
 const BlogListingPage = ({
   data: {
-    allMarkdownRemark: { edges },
-  },
+    allMarkdownRemark: {
+      edges
+    }
+  }
 }) => {
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+  const Posts = edges.filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .map(edge => <PostLink key={edge.node.id} post={edge.node}/>)
 
   return <Layout>
-  
-  <div className='container'>
 
-      <div className="column is-half is-inline-flex">
+    <div className='container'>
+      <div className="blog-title">
+        <h1 className="title has-text-centered">Blog</h1>
+        <p className="subtitle has-text-centered">Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div className="column is-three-fifths is-offset-one-fifth">
         {Posts}
       </div>
-
-  </div>
-
+    </div>
+    <CTA/>
   </Layout>
 }
 
 export default BlogListingPage
 
-export const pageQuery = graphql`
+export const pageQuery = graphql `
   query {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {

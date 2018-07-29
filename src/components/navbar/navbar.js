@@ -73,7 +73,7 @@ class Navbar extends React.Component {
           </div>
           <div className="navbar-end">
             <div className="navbar-item">
-              <Link to='/start-your-project'>
+              <Link to='/start-your-project' className='navbar-item'>
                 Start Your Project
               </Link>
             </div>
