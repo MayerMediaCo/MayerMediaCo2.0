@@ -19,16 +19,10 @@ const IndexPage = () => (
                 Make Your Mark
               </h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut adipisci iste
-                harum iure minima hic, architecto repudiandae facere tempora enim nostrum vero
-                esse magni itaque quaerat dolore dignissimos nulla nesciunt sapiente deserunt
-                explicabo quas cumque officia. Expedita ipsum cum officiis obcaecati placeat?
-                Dolor alias, eius hic, cum explicabo et animi deleniti inventore perferendis
-                laudantium sunt, quae quaerat? Corporis numquam asperiores in? Quidem, quia.
-                Accusantium itaque explicabo neque deleniti sed reiciendis eum, recusandae a
-                porro quas aliquam vel hic repudiandae dolores consequatur vitae sunt tempora?
-                Consequuntur harum amet corporis molestias nemo et laudantium modi, error ipsam
-                dignissimos repellat, beatae veniam.
+                I am a freelance creative focusing on branding, web design, development, and
+                digital marketing to help small businesses and creative entrepreneurs bring
+                their brand to life, get heard by customers, and make their mark in the digital
+                landscape.
               </p>
             </div>
           </div>

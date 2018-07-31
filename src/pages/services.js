@@ -10,12 +10,12 @@ const services = () => (
     <div className="container">
       <section className='section'>
         <div className="content">
-          <h1 className='has-text-centered title'>What I Can Do For You</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et enim eius numquam
-            qui expedita iure rerum suscipit nam doloremque temporibus maxime facere
-            pariatur dolore, obcaecati praesentium aperiam iusto. Ad placeat voluptatum quam
-            ea totam explicabo. Consequuntur ab delectus earum alias! Incidunt alias nihil
-            sed impedit deleniti aut maxime nemo cupiditate.</p>
+          <h1 className='has-text-centered title'>What is your brand saying about you?</h1>
+          <p>Your brand and online presence are a direct reflection of you and your
+            business. The further we look across the digital landscape, the more complex it
+            becomes. A consistent look, feel, and tone in all of your digital assets is
+            essential to reach your customers effectively and let them know what you are all
+            about.</p>
           <p className='has-text-centered is-size-5'>Already Know what you need?</p>
           <GSNButton/>
           <hr className="border"/>
