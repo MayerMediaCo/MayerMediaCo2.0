@@ -10,8 +10,8 @@ import Computer from '../assets/computer.png'
 const IndexPage = () => (
   <Layout>
     <Header/>
-    <section className="section">
-      <div className="container">
+    <div className="container">
+      <section className="section">
         <div className="columns">
           <div className="column">
             <div className="content">
@@ -27,90 +27,92 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
+      </section>
 
-        <section className="section">
-          <div className="columns">
-            <div className="card column">
-              <div className="card-header">
-                <Link to='/services/design' className='card-header-title is-centered'>
-                  <h3 className=''>
-                    <i className="card-header-icon bx bxs-layout bx-border-circle"></i>
-                    Design</h3>
-                </Link>
-              </div>
-              <div className="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
-                  a! Quibusdam, cum sequi?</p>
-              </div>
-              <footer className="card-footer">
-                <div className="card-footer-item">
-                  <Link to='/services/design'>Find Out More</Link>
-                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
-                </div>
-              </footer>
+      <section className="section">
+        <div className="columns">
+          <div className="card column">
+            <div className="card-header">
+              <Link to='/services/design' className='card-header-title is-centered'>
+                <h3 className=''>
+                  <i className="card-header-icon bx bxs-layout bx-border-circle"></i>
+                  Design</h3>
+              </Link>
             </div>
-            <div className="card column">
-              <div className="card-header">
-                <Link to='/services/development' className='card-header-title is-centered'>
-                  <h3 className=''>
-                    <i className="card-header-icon bx bx-code-curly bx-border-circle"></i>
-                    Development</h3>
-                </Link>
-              </div>
-              <div className="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
-                  a! Quibusdam, cum sequi?</p>
-              </div>
-              <footer className="card-footer">
-                <div className="card-footer-item">
-                  <Link to='/services/development'>Find Out More</Link>
-                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
-                </div>
-              </footer>
+            <div className="card-content">
+              <p>Create the best representation of your brand, optimizie marketing and print
+                materials or give your website a fresh new look.</p>
             </div>
-            <div className="card column">
-              <div className="card-header">
-                <Link to='/services/marketing' className='card-header-title is-centered'>
-                  <h3 className=''>
-                    <i className="card-header-icon bx bx-trending-up bx-border-circle"></i>
-                    Marketing</h3>
-                </Link>
+            <footer className="card-footer">
+              <div className="card-footer-item">
+                <Link to='/services/design'>Find Out More</Link>
+                <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
               </div>
-              <div className="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
-                  a! Quibusdam, cum sequi?</p>
-              </div>
-              <footer className="card-footer">
-                <div className="card-footer-item">
-                  <Link to='/services/marketing'>Find Out More</Link>
-                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
-                </div>
-              </footer>
-            </div>
-            <div className="card column">
-              <div className="card-header">
-                <Link
-                  to='/services/research-and-analytics'
-                  className='card-header-title is-centered'>
-                  <h3 className=''>
-                    <i className="card-header-icon bx bx-globe bx-border-circle"></i>
-                    Research and Analytics</h3>
-                </Link>
-              </div>
-              <div className="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
-                  a! Quibusdam, cum sequi?</p>
-              </div>
-              <footer className="card-footer">
-                <div className="card-footer-item">
-                  <Link to='/services/research-and-analytics'>Find Out More</Link>
-                  <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
-                </div>
-              </footer>
-            </div>
+            </footer>
           </div>
-        </section>
+          <div className="card column">
+            <div className="card-header">
+              <Link to='/services/development' className='card-header-title is-centered'>
+                <h3 className=''>
+                  <i className="card-header-icon bx bx-code-curly bx-border-circle"></i>
+                  Development</h3>
+              </Link>
+            </div>
+            <div className="card-content">
+              <p>From basic static sites to complex, data rich applications, utilize custom,
+                mobile friendly solutions to present your brand online.</p>
+            </div>
+            <footer className="card-footer">
+              <div className="card-footer-item">
+                <Link to='/services/development'>Find Out More</Link>
+                <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+              </div>
+            </footer>
+          </div>
+          <div className="card column">
+            <div className="card-header">
+              <Link to='/services/marketing' className='card-header-title is-centered'>
+                <h3 className=''>
+                  <i className="card-header-icon bx bx-trending-up bx-border-circle"></i>
+                  Marketing</h3>
+              </Link>
+            </div>
+            <div className="card-content">
+              <p>Get your brand and message heard utilizing modern content, social media,
+                pay-per-click, and search engine marketing techniques.</p>
+            </div>
+            <footer className="card-footer">
+              <div className="card-footer-item">
+                <Link to='/services/marketing'>Find Out More</Link>
+                <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+              </div>
+            </footer>
+          </div>
+          <div className="card column">
+            <div className="card-header">
+              <Link
+                to='/services/research-and-analytics'
+                className='card-header-title is-centered'>
+                <h3 className=''>
+                  <i className="card-header-icon bx bx-globe bx-border-circle"></i>
+                  Research and Analytics</h3>
+              </Link>
+            </div>
+            <div className="card-content">
+              <p>Make sense of your analytics and see where improvements can be made to
+                increase your brands ROI.</p>
+            </div>
+            <footer className="card-footer">
+              <div className="card-footer-item">
+                <Link to='/services/research-and-analytics'>Find Out More</Link>
+                <i className="bx bx-chevrons-right bx-fade-right-hover"></i>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </section>
 
+      <section className="section">
         <div className="columns">
           <div className="column">
             <div className="content">
@@ -132,8 +134,8 @@ const IndexPage = () => (
             </figure>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     < CTA/>
   </Layout>
 )

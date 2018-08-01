@@ -30,8 +30,8 @@ const services = () => (
                 </Link>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
-                  a! Quibusdam, cum sequi?</p>
+                <p>Create the best representation of your brand, optimizie marketing and print
+                  materials or give your website a fresh new look.</p>
                 <hr className="border"/>
                 <div className="columns card-list">
                   <div className="column">
@@ -66,8 +66,8 @@ const services = () => (
                 </Link>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
-                  a! Quibusdam, cum sequi?</p>
+                <p>From basic static sites to complex, data rich applications, utilize custom,
+                  mobile friendly solutions to present your brand online.</p>
                 <hr className="border"/>
                 <div className="columns card-list">
                   <div className="column">
@@ -105,8 +105,9 @@ const services = () => (
                 </Link>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
-                  a! Quibusdam, cum sequi?</p>
+                <p>Get your brand and message heard utilizing modern content, social media,
+                  pay-per-click, and search engine marketing techniques. Craft a strategy to help
+                  you win.</p>
                 <hr className="border"/>
                 <div className="columns card-list">
                   <div className="column">
@@ -143,8 +144,8 @@ const services = () => (
                 </Link>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facilis neque
-                  a! Quibusdam, cum sequi?</p>
+                <p>Make sense of your analytics and see where improvements can be made to
+                  increase your brands ROI.</p>
                 <hr className="border"/>
                 <div className="columns card-list">
                   <div className="column">
