@@ -18,7 +18,8 @@ const contact = () => (
             <hr className="border"/>
           </div>
         </div>
-
+      </section>
+      <section className="section">
         <div className="email-contact">
           <h3 className="contact-project has-text-centered">
             Send me an E-Mail or Start Your Project</h3>
@@ -39,7 +40,9 @@ const contact = () => (
             </div>
           </div>
         </div>
+      </section>
 
+      <section className="section">
         <div className="social-contact">
           <h3 className="contact-project has-text-centered">
             Get Connected on Social Media</h3>
@@ -90,8 +93,8 @@ const contact = () => (
             </div>
           </div>
         </div>
-
       </section>
+
     </div>
     < CallToAction/>
   </Layout>
