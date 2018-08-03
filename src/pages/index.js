@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Layout from '../components/layout/layout'
 import Header from '../components/header/header'
 import CTA from '../components/call-to-action/call-to-action'
+import GSNButton from '../components/buttons/get-started-now'
 
 import Computer from '../assets/computer.png'
 
@@ -117,15 +118,18 @@ const IndexPage = () => (
           <div className="column">
             <div className="content">
               <h3 className='content-title has-text-centered'>
-                Lorem, ipsum dolor.
+                Drive your conversions and improve your ROI
               </h3>
               <p className='content-body'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis dolore eum
-                vitae quam. Voluptatem in recusandae nisi culpa officiis, dolorum, eum illo
-                quibusdam debitis libero asperiores eveniet id? Eaque assumenda reiciendis nemo
-                illo nostrum explicabo dolores, sed natus, est sequi laborum a, officia et optio
-                ratione nisi dicta nobis rem!
+                Your web presence is more important now than ever. You work hard everyday to
+                build your business, let me help you take it even further.
               </p>
+              <p>I pride myself on creating a partnership with my clients in order to
+                determine their needs, execute a tailored strategy to get results, and educate
+                along the way.</p>
+              <p>I even offer an up free assessment of branding, design, and marketing
+                strategy up front. I am dedicated to helping my clients succeed.</p>
+              <GSNButton/>
             </div>
           </div>
           <div className="column">

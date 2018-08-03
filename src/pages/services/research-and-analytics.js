@@ -19,8 +19,8 @@ const ResearchAndAnalytics = () => (
             ea totam explicabo. Consequuntur ab delectus earum alias! Incidunt alias nihil
             sed impedit deleniti aut maxime nemo cupiditate.</p>
 
-          <div className='columns'>
-            <div className="card column is-6">
+          <div className='columns is-desktop'>
+            <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
                 <h3 className='card-header-title content-title'>
                   Discovery</h3>
@@ -35,7 +35,7 @@ const ResearchAndAnalytics = () => (
                   adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
               </div>
             </div>
-            <div className="card column is-6">
+            <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
                 <h3 className='card-header-title content-title'>
                   Custom Reporting</h3>
@@ -52,8 +52,8 @@ const ResearchAndAnalytics = () => (
             </div>
           </div>
 
-          <div className='columns'>
-            <div className="card column is-6">
+          <div className='columns is-desktop'>
+            <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
                 <h3 className='card-header-title content-title'>
                   Google Analytics</h3>
@@ -68,7 +68,7 @@ const ResearchAndAnalytics = () => (
                   adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
               </div>
             </div>
-            <div className="card column is-6">
+            <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
                 <h3 className='card-header-title content-title'>
                   Consuling and Strategy Development</h3>
@@ -85,8 +85,8 @@ const ResearchAndAnalytics = () => (
             </div>
           </div>
 
-          <div className='columns'>
-            <div className="card column is-6">
+          <div className='columns is-desktop'>
+            <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
                 <h3 className='card-header-title content-title'>
                   Develop Buyer Persona's</h3>
@@ -101,7 +101,7 @@ const ResearchAndAnalytics = () => (
                   adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
               </div>
             </div>
-            <div className="card column is-6">
+            <div className="card column is-full-tablet is-half-desktop">
               <div className="card-image">
                 <figure className='image is-2by1'>
                   <img src={Computer} alt=""/>
