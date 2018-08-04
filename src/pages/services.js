@@ -9,7 +9,7 @@ const services = () => (
   <Layout>
     <div className="container">
       <section className='section'>
-        <div className="content">
+        <div className="content page-introduction">
           <h1 className='has-text-centered title'>What is your brand saying about you?</h1>
           <p>Your brand and online presence are a direct reflection of you and your
             business. The further we look across the digital landscape, the more complex it

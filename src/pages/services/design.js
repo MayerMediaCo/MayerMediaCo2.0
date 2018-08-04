@@ -4,21 +4,30 @@ import Layout from '../../components/layout/layout'
 import CallToAction from '../../components/call-to-action/call-to-action'
 
 import Computer from '../../assets/computer.png'
+import DesignIcon from '../../assets/icons/design.svg'
 
 const Design = () => (
   <Layout>
     <div className='container'>
       <section className="section">
-        <div className="content">
+        <div className="content page-introduction">
           <h1 className="title has-text-centered">
             Design
           </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et enim eius numquam
-            qui expedita iure rerum suscipit nam doloremque temporibus maxime facere
-            pariatur dolore, obcaecati praesentium aperiam iusto. Ad placeat voluptatum quam
-            ea totam explicabo. Consequuntur ab delectus earum alias! Incidunt alias nihil
-            sed impedit deleniti aut maxime nemo cupiditate.</p>
+          <div className="has-text-centered">
+            <p>Your visual identity should tell a story.</p>
+            <p>Using a universal flavor of design is important to create cohesion and
+              uniformity for your brand online.</p>
+            <p>Design comes in many styles and is applied to many things. I use a
+              combination of layout, typography, and illustration to bring all of your
+              branding elements together.</p>
+          </div>
+          <img src={DesignIcon} alt="" className='introduction-image'/>
+        </div>
+      </section>
 
+      <section className="section">
+        <div className="content">
           <div className='columns is-desktop'>
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
@@ -52,6 +61,8 @@ const Design = () => (
             </div>
           </div>
 
+          <br/>
+
           <div className='columns is-desktop'>
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
@@ -84,6 +95,8 @@ const Design = () => (
               </div>
             </div>
           </div>
+
+          <br/>
 
           <div className='columns is-desktop'>
             <div className="card column is-full-tablet is-half-desktop">

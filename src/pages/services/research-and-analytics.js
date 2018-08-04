@@ -4,21 +4,30 @@ import Layout from '../../components/layout/layout'
 import CallToAction from '../../components/call-to-action/call-to-action'
 
 import Computer from '../../assets/computer.png'
+import AnalyticsIcon from '../../assets/icons/analytics.svg'
 
 const ResearchAndAnalytics = () => (
   <Layout>
     <div className='container'>
       <section className="section">
-        <div className="content">
+        <div className="content page-introduction">
           <h1 className="title has-text-centered">
             Research and Analytics
           </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et enim eius numquam
-            qui expedita iure rerum suscipit nam doloremque temporibus maxime facere
-            pariatur dolore, obcaecati praesentium aperiam iusto. Ad placeat voluptatum quam
-            ea totam explicabo. Consequuntur ab delectus earum alias! Incidunt alias nihil
-            sed impedit deleniti aut maxime nemo cupiditate.</p>
+          <div className="has-text-centered">
+            <p>Technology is evolving at incredible rates.</p>
+            <p>Staying on top of this growth, and knowing when to pivot and how to stay
+              relevant in the digital landscape is essential.</p>
+            <p>From basic marketing websites to native phone applications, I use the latest
+              techniques and technology to ensure your brand stays modern in both software and
+              on the web.</p>
+          </div>
+          <img src={AnalyticsIcon} alt="" className='introduction-image'/>
+        </div>
+      </section>
 
+      <section className="section">
+        <div className="content">
           <div className='columns is-desktop'>
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">

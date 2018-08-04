@@ -46,7 +46,7 @@ const contact = () => (
         <div className="social-contact">
           <h3 className="contact-project has-text-centered">
             Get Connected on Social Media</h3>
-          <div className="columns">
+          <div className="columns is-desktop">
             <div className="column">
               <div className="card">
                 <div className="card-content">
