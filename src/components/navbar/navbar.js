@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Logo from '../../assets/mmc_logo.png'
+import HeaderLogo from '../../assets/header_logo.png'
 
 class Navbar extends React.Component {
 
@@ -20,7 +20,7 @@ class Navbar extends React.Component {
       <nav className="navbar is-transparent" aria-label="main navigation">
         <div className="navbar-brand">
           <Link to='/' className="navbar-item">
-            <img className='nav-image' src={Logo} alt="Mayer Media Co"/>
+            <img className='nav-image' src={HeaderLogo} alt="Mayer Media Co"/>
             Mayer Media Co
           </Link>
           <button className="button navbar-burger" onClick={this.toggleNav}>

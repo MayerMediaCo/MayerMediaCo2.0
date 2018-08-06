@@ -18,10 +18,12 @@ const BlogListingPage = ({
   return <Layout>
 
     <div className='container'>
-      <div className="blog-title">
-        <h1 className="title has-text-centered">Blog</h1>
-        <p className="subtitle has-text-centered">Lorem ipsum dolor sit amet.</p>
-      </div>
+      <section className="section">
+        <div className="content page-introduction">
+          <h1 className="title has-text-centered">Blog</h1>
+          <p className="subtitle has-text-centered">A collection of articles, tutorials, and case studies.</p>
+        </div>
+      </section>
       <div className="column is-three-fifths is-offset-one-fifth">
         {Posts}
       </div>

@@ -26,6 +26,7 @@ module.exports = {
       options: {
         trackingId: "UA-113953663-1"
       }
-    }
+    },
+    'gatsby-plugin-netlify-cms'
   ]
 }

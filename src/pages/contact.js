@@ -9,12 +9,12 @@ const contact = () => (
   <Layout>
     <div className='container'>
       <section className="section">
-        <div className="content">
+        <div className="content page-introduction">
           <div className='has-text-centered'>
             <h1 className='title'>Get In Touch</h1>
-            <h3 className='subtitle'>
+            <p>
               There are tons of ways to connect with me all over the place
-            </h3>
+            </p>
             <hr className="border"/>
           </div>
         </div>

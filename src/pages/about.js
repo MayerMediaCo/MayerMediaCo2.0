@@ -10,7 +10,7 @@ const About = () => (
   <Layout>
     <div className='container'>
       <section className="section">
-        <div className="content">
+        <div className="content page-introduction">
           <div>
             <h1 className='title has-text-centered'>The Journey So Far</h1>
             <p className='has-text-centered'>The most exciting thing about business is not
@@ -66,15 +66,12 @@ const About = () => (
           </div>
           <div className="column about-content-block">
             <blockquote>
-              <i className="bx-pull-left bx bxs-quote-left bx-lg"></i>
+              <i className="bx-pull-left bx bxs-quote-left bx-md"></i>
               <p className='about-block-quote'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, autem
                 aspernatur. Hic perspiciatis deserunt voluptas. Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit. Iusto, autem aspernatur. Hic perspiciatis deserunt
                 voluptas.
-              </p>
-              <p className="content-subscript has-text-right">
-                - lorem ipsum dolor
               </p>
             </blockquote>
           </div>

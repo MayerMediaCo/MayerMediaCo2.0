@@ -34,7 +34,7 @@ const services = () => (
               </Link>
             </div>
             <div className="card-content">
-              <p>Create the best representation of your brand, optimizie marketing and print
+              <p>Create the best representation of your brand, optimize marketing and print
                 materials or give your website a fresh new look.</p>
               <hr className="border"/>
               <div className="columns card-list">

@@ -15,7 +15,7 @@ const IndexPage = () => (
       <section className="section">
         <div className="columns">
           <div className="column">
-            <div className="content">
+            <div className="content page-introduction">
               <h1 className='has-text-centered'>
                 Make Your Mark
               </h1>

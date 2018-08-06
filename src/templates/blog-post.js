@@ -7,21 +7,29 @@ export default({data}) => {
   return (
     <Layout>
       <div className='container'>
-        <h1 className='blog-title has-text-centered'>{post.frontmatter.title}</h1>
-        <div className="columns">
-          <div className="column">
-            <h2 className="blog-sub-text">{post.frontmatter.date}</h2>
+        <section className='section'>
+          <div className='content page-introduction'>
+            <h1 className='has-text-centered'>{post.frontmatter.title}</h1>
+            <div className="columns">
+              <div className="column">
+                <h2 className="blog-sub-text">{post.frontmatter.date}</h2>
+              </div>
+              <div className="column">
+                <h2 className="blog-sub-text has-text-right">{post.frontmatter.author}</h2>
+              </div>
+            </div>
+            <hr className='border'/>
           </div>
-          <div className="column">
-            <h2 className="blog-sub-text has-text-right">{post.frontmatter.author}</h2>
+        </section>
+        <section className="section">
+          <div className="content">
+            <article
+              className='mainPostStyle'
+              dangerouslySetInnerHTML={{
+              __html: post.html
+            }}/>
           </div>
-        </div>
-        <hr className='border'/>
-        <article
-          className='mainPostStyle'
-          dangerouslySetInnerHTML={{
-          __html: post.html
-        }}/>
+        </section>
       </div>
     </Layout>
   )
