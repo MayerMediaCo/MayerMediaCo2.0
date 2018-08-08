@@ -3,8 +3,8 @@ import Link from 'gatsby-link'
 
 import Layout from '../components/layout/layout'
 
-import Computer from '../assets/computer.png'
-import Logo from '../assets/mmc_logo.png'
+import Logo from '../assets/img/mmc_logo.png'
+import Portrait from '../assets/img/portrait.jpg'
 
 const About = () => (
   <Layout>
@@ -59,8 +59,8 @@ const About = () => (
         <div className="columns">
           <div className="column">
             <div className="image">
-              <figure className='image is-2by1'>
-                <img src={Computer} alt=""/>
+              <figure className='image portrait'>
+                <img src={Portrait} alt=""/>
               </figure>
             </div>
           </div>
@@ -108,48 +108,6 @@ const About = () => (
                 products and services and the creative individuals looking to stand out and make
                 their mark in their craft.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="columns is-gapless">
-          <div className="column">
-            <div className="image">
-              <figure className='image is-2by1'>
-                <img src={Computer} alt=""/>
-              </figure>
-            </div>
-          </div>
-          <div className="column">
-            <div className="image">
-              <figure className='image is-2by1'>
-                <img src={Computer} alt=""/>
-              </figure>
-            </div>
-          </div>
-          <div className="column">
-            <div className="image">
-              <figure className='image is-2by1'>
-                <img src={Computer} alt=""/>
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div className="columns is-gapless">
-          <div className="column">
-            <div className="image">
-              <figure className='image is-2by1'>
-                <img src={Computer} alt=""/>
-              </figure>
-            </div>
-          </div>
-          <div className="column">
-            <div className="image">
-              <figure className='image is-2by1'>
-                <img src={Computer} alt=""/>
-              </figure>
             </div>
           </div>
         </div>

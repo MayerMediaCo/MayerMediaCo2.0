@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import HeaderLogo from '../../assets/header_logo.png'
+import HeaderLogo from '../../assets/img/header_logo.png'
 
 class Navbar extends React.Component {
 

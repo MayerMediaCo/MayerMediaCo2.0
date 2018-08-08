@@ -15,12 +15,12 @@ const Marketing = () => (
             Marketing
           </h1>
           <div className="has-text-centered">
-            <p>Technology is evolving at incredible rates.</p>
-            <p>Staying on top of this growth, and knowing when to pivot and how to stay
-              relevant in the digital landscape is essential.</p>
-            <p>From basic marketing websites to native phone applications, I use the latest
-              techniques and technology to ensure your brand stays modern in both software and
-              on the web.</p>
+            <p>Get your brand heard.</p>
+            <p>Old marketing tricks simply do not work like they used to. Brands are
+              expected to engage and educate their audience like never before.</p>
+            <p>I build marketing stratagies off of modern techniques utilizing social media,
+              content, and other digital marketing techniques to help you engage your audience
+              and make your mark.</p>
           </div>
           <img src={MarketingIcon} alt="" className='introduction-image'/>
         </div>

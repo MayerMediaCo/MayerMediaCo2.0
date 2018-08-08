@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../../components/layout/layout'
 import CallToAction from '../../components/call-to-action/call-to-action'
 
-import Computer from '../../assets/computer.png'
+import Mindmap from '../../assets/img/mindmap.png'
 import AnalyticsIcon from '../../assets/icons/analytics.svg'
 
 const ResearchAndAnalytics = () => (
@@ -15,12 +15,13 @@ const ResearchAndAnalytics = () => (
             Research and Analytics
           </h1>
           <div className="has-text-centered">
-            <p>Technology is evolving at incredible rates.</p>
-            <p>Staying on top of this growth, and knowing when to pivot and how to stay
-              relevant in the digital landscape is essential.</p>
-            <p>From basic marketing websites to native phone applications, I use the latest
-              techniques and technology to ensure your brand stays modern in both software and
-              on the web.</p>
+            <p>Understand your business in a whole new way.</p>
+            <p>Discover who your audience is, where your traffic comes from, and what they
+              enjoy about you.
+            </p>
+            <p>I will help you understand your analytics and what it means to your business.
+              From there, strategies are put into place to ensure you maximize your
+              conversions and strengthen your sales funnels.</p>
           </div>
           <img src={AnalyticsIcon} alt="" className='introduction-image'/>
         </div>
@@ -61,6 +62,8 @@ const ResearchAndAnalytics = () => (
             </div>
           </div>
 
+          <br/>
+
           <div className='columns is-desktop'>
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
@@ -94,6 +97,8 @@ const ResearchAndAnalytics = () => (
             </div>
           </div>
 
+          <br/>
+
           <div className='columns is-desktop'>
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
@@ -112,8 +117,8 @@ const ResearchAndAnalytics = () => (
             </div>
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-image">
-                <figure className='image is-2by1'>
-                  <img src={Computer} alt=""/>
+                <figure className='image center-image is-2by1'>
+                  <img src={Mindmap} alt=""/>
                 </figure>
               </div>
             </div>
