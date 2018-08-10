@@ -23,7 +23,10 @@ const ResearchAndAnalytics = () => (
               From there, strategies are put into place to ensure you maximize your
               conversions and strengthen your sales funnels.</p>
           </div>
-          <img src={AnalyticsIcon} alt="" className='introduction-image'/>
+          <img
+            src={AnalyticsIcon}
+            alt=""
+            className='introduction-image is-hidden-mobile'/>
         </div>
       </section>
 
@@ -36,13 +39,14 @@ const ResearchAndAnalytics = () => (
                   Discovery</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Discovery is all about taking a deep look at your business and seeing what
+                  hurts. Research is done on your ideal client, clients you would like to target,
+                  and strategy already in place to identify any potential areas of improvement.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">Identifying areas of improvement is key to
+                  setting a course of corrective action to get the results that you are looking
+                  for.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">
@@ -51,13 +55,13 @@ const ResearchAndAnalytics = () => (
                   Custom Reporting</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Your analytics are the cold hard facts of how your business is performing,
+                  but they are not always the easiest to interpret and are rarely all in the same
+                  place.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">Having all your analytics in a comprehensive
+                  report will grant you better insight and understanding of your business.</p>
               </div>
             </div>
           </div>
@@ -71,13 +75,16 @@ const ResearchAndAnalytics = () => (
                   Google Analytics</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Google Analytics is almost the source of complete truth for your online
+                  performance, but the abbundance of information can be both overwhelming and in
+                  some cases even irrelevant. I can help your properly set analytics up on your
+                  website, explain what everything means, and create custom reporting in the
+                  Google Analytics Dashboard to only show relevant information to you.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">Being able to quickly see and understand your
+                  Google Analytics will help you spend less time on the numbers and more time on
+                  actionable steps.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">

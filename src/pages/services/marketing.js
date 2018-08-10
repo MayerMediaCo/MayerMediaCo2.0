@@ -22,7 +22,10 @@ const Marketing = () => (
               content, and other digital marketing techniques to help you engage your audience
               and make your mark.</p>
           </div>
-          <img src={MarketingIcon} alt="" className='introduction-image'/>
+          <img
+            src={MarketingIcon}
+            alt=""
+            className='introduction-image is-hidden-mobile'/>
         </div>
       </section>
 

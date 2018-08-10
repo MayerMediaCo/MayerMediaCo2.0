@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../../components/layout/layout'
 import CallToAction from '../../components/call-to-action/call-to-action'
 
-import Computer from '../../assets/computer.png'
+import DesignPhoto from '../../assets/img/design.jpg'
 import DesignIcon from '../../assets/icons/design.svg'
 
 const Design = () => (
@@ -22,7 +22,7 @@ const Design = () => (
               combination of layout, typography, and illustration to bring all of your
               branding elements together.</p>
           </div>
-          <img src={DesignIcon} alt="" className='introduction-image'/>
+          <img src={DesignIcon} alt="" className='introduction-image is-hidden-mobile'/>
         </div>
       </section>
 
@@ -35,13 +35,13 @@ const Design = () => (
                   Branding</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>To put it simply, branding is the digital representation of you. Everything
+                  from your color pallete to your tone should work together to be a cohesive way
+                  to position yourself in the light you want to be perceived in.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">A proper brand strategy will strengthen your
+                  online identity and create a cohesive experience for your clients and leads.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">
@@ -50,9 +50,7 @@ const Design = () => (
                   User Interface / User Experience</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>A proper design should focus on branding, functionality, and accssessibility.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
                 <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
@@ -116,8 +114,8 @@ const Design = () => (
             </div>
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-image">
-                <figure className='image is-2by1'>
-                  <img src={Computer} alt=""/>
+                <figure className='image center-image is-2by1'>
+                  <img src={DesignPhoto} alt=""/>
                 </figure>
               </div>
             </div>

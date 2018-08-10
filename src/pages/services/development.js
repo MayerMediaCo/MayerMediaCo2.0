@@ -22,7 +22,10 @@ const Development = () => (
               techniques and technology to ensure your brand stays modern in both software and
               on the web.</p>
           </div>
-          <img src={DevelopmentIcon} alt="" className='introduction-image'/>
+          <img
+            src={DevelopmentIcon}
+            alt=""
+            className='introduction-image is-hidden-mobile'/>
         </div>
       </section>
 

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter'
+    title: 'Mayer Media Co.'
   },
   plugins: [
     'gatsby-plugin-react-helmet', {
