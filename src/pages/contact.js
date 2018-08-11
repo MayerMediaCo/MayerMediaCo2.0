@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import Layout from '../components/layout/layout'
 import CallToAction from '../components/call-to-action/call-to-action'
@@ -48,7 +47,7 @@ const contact = () => (
               <div className="card">
                 <div className="card-content">
                   <a
-                    to='https://twitter.com/MayerMediaCo'
+                    href='https://twitter.com/MayerMediaCo'
                     className='card-header-title is-centered'>
                     <h3>Twitter</h3>
                     <hr className="border"/>
@@ -61,7 +60,7 @@ const contact = () => (
               <div className="card">
                 <div className="card-content">
                   <a
-                    to='https://www.instagram.com/mayermediaco/'
+                    href='https://www.instagram.com/mayermediaco/'
                     className='card-header-title is-centered'>
                     <h3>Instagram</h3>
                     <hr className="border"/>

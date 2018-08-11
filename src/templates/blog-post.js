@@ -15,7 +15,7 @@ export default({data}) => {
                 <h2 className="blog-sub-text">{post.frontmatter.date}</h2>
               </div>
               <div className="column">
-                <h2 className="blog-sub-text has-text-right">{post.frontmatter.author}</h2>
+                <h2 className="blog-sub-text has-text-right">{post.frontmatter.tag}</h2>
               </div>
             </div>
             <hr className='border'/>
@@ -46,6 +46,8 @@ export const blogPostQuery = graphql `
         date(formatString: "MMMM DD YYYY")
         author
         path
+        tag
+        cover
       }
     }
   }

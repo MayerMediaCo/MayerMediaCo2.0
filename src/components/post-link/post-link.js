@@ -5,17 +5,19 @@ import Computer from '../../assets/computer.png'
 
 const PostLink = ({post}) => (
   <div className='card blog-card'>
-  <div className="card-image">
+    <div className="card-image">
       <figure className="image is-5by3">
-        <img src={Computer} alt=""/>
+        <img src={post.frontmatter.cover} alt=""/>
       </figure>
     </div>
     <div className="card-title">
       <h5 className='blog-meta is-pulled-left'>{post.frontmatter.date}</h5>
-      <h5 className="blog-meta is-pulled-right">{post.frontmatter.tags}</h5>
+      <h5 className="blog-meta is-pulled-right">{post.frontmatter.tag}</h5>
       <div className="is-clearfix"></div>
-      <h3 className='blog-card-title'> <Link to ={post.frontmatter.path}>{post.frontmatter.title}
-      </Link></h3>
+      <h3 className='blog-card-title'>
+        <Link to ={post.frontmatter.path}>{post.frontmatter.title}
+        </Link>
+      </h3>
     </div>
     <div className="card-content">
       <p>
