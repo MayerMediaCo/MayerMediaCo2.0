@@ -13,8 +13,9 @@ const About = () => (
         <div className="content page-introduction">
           <div>
             <h1 className='title has-text-centered'>The Journey So Far</h1>
-            <p className='has-text-centered'>The most exciting thing about business is not
-              running an empire, it is the grind put in to build the empire.</p>
+            <p className='has-text-centered'>I am passionate about working with creative
+              entrepreneurs and small businesses to help them acheive success in the digital
+              realm.</p>
           </div>
         </div>
       </section>
@@ -33,21 +34,22 @@ const About = () => (
                 creative endeavor I was doing at that moment, whether it was music, design,
                 photography, or writing. I believe in breaking down the barriers in your area of
                 expertise as a way of improving your thinking towards the subject. Having years
-                of experience in creative mediums, the drive for absolute perfection, and a love
+                of experience in creative mediums, the drive for absolute perfection and a love
                 for technology drove me towards web design and development as a way to satisfy
                 all the different aspects of my passions.</p>
             </div>
             <div className="column">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus saepe esse ea
-                atque dolores labore fuga, nostrum dicta? Exercitationem nam ullam dolor
-                voluptatem natus. Placeat voluptatum qui maiores, distinctio autem officiis
-                dignissimos eum fugiat, vel cupiditate ad voluptas expedita debitis a, veritatis
-                quam reiciendis! Eum sunt quidem inventore consectetur, ipsa amet harum repellat
-                vitae neque perferendis eveniet molestias officia adipisci, quod voluptatem,
-                doloribus provident dolores? Aliquam vero quas nobis vitae! Necessitatibus, odio
-                tempora. Vitae repudiandae veniam, officiis mollitia aspernatur corrupti natus
-                quas dolor, asperiores eum sunt laborum id quisquam numquam aliquid, nihil
-                eligendi corporis nostrum sit vel consectetur facilis veritatis.</p>
+              <p>I decided to take the leap into the freelance journey as a way to express my
+                creativity, challange myself and my capabilities, and to educate brands who are
+                like minded.</p>
+              <p>
+                I spent much on my high school career dedicated to small side hustles that
+                involved the local music scene. I would do everything from Social Media
+                Management to Myspace Layouts to even booking and promoting and audio
+                engineering. I apply the same desires I had to see the local music scene thrive
+                that I do today in working with my clients to take their brands to the next
+                level.
+              </p>
             </div>
           </div>
         </div>
@@ -60,7 +62,7 @@ const About = () => (
           <div className="column">
             <div className="image">
               <figure className='image portrait'>
-                <img src={Portrait} alt=""/>
+                <img src={Portrait} alt="Danny Mayer"/>
               </figure>
             </div>
           </div>
@@ -68,10 +70,8 @@ const About = () => (
             <blockquote>
               <i className="bx-pull-left bx bxs-quote-left bx-md"></i>
               <p className='about-block-quote'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, autem
-                aspernatur. Hic perspiciatis deserunt voluptas. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Iusto, autem aspernatur. Hic perspiciatis deserunt
-                voluptas.
+                The most exciting thing about business is not running an empire, it is the grind
+                put in to build the empire.
               </p>
             </blockquote>
           </div>
@@ -118,7 +118,7 @@ const About = () => (
           <div className="column is-half is-narrow">
             <div className="image is-pulled-left">
               <figure className="image is-128x128">
-                <img src={Logo} alt=""/>
+                <img src={Logo} alt="Mayer Media Co."/>
               </figure>
             </div>
             <h3 className='has-text-centered'>Want to Connect or Learn More?</h3>

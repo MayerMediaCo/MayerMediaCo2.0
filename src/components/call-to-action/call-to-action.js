@@ -6,7 +6,7 @@ const CallToAction = () => (
     <div className="container">
       <div className="columns">
         <div className="column">
-          <h3>Want Actionable Tips to Improve Your Online Presence?</h3>
+          <h3>Want weekly information to help push your brand forward?</h3>
         </div>
         <div className="column">
           <EmailCaptureForm/>

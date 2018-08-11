@@ -148,8 +148,8 @@ const services = () => (
               </Link>
             </div>
             <div className="card-content">
-              <p>Make sense of your analytics and see where improvements can be made to
-                increase your brands ROI.</p>
+              <p>Make sense of your analytics, gain a better understanding of your business,
+                and see where improvements can be made to increase your brands ROI.</p>
               <hr className="border"/>
               <div className="columns card-list">
                 <div className="column">

@@ -1,8 +1,6 @@
 import React from "react"
 import Link from "gatsby-link"
 
-import Computer from '../../assets/computer.png'
-
 const PostLink = ({post}) => (
   <div className='card blog-card'>
     <div className="card-image">
