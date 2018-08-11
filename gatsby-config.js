@@ -1,6 +1,9 @@
+const config = require('./meta/config')
+
 module.exports = {
   siteMetadata: {
-    title: 'Mayer Media Co.'
+    title: config.siteTitle,
+    siteUrl: config.siteUrl
   },
   plugins: [
     'gatsby-plugin-react-helmet', {

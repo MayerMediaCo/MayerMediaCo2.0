@@ -6,8 +6,9 @@ import { StaticQuery, graphql } from "gatsby"
 import Navbar from '../navbar/navbar'
 import Footer from '../footer/footer'
 
-import 'boxicons/css/boxicons.min.css'
+import config from '../../../meta/config'
 
+import 'boxicons/css/boxicons.min.css'
 import './layout.sass'
 
 
@@ -25,10 +26,9 @@ const Layout = ({ children, data }) => (
     render={data => (
       <>
         <Helmet
-          title={data.site.siteMetadata.title}
+          title={config.siteTitle}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: '{config.siteDescription}' },
           ]}
         />
         <Navbar />

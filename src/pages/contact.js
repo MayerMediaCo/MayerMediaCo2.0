@@ -40,9 +40,6 @@ const contact = () => (
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="section">
         <div className="social-contact">
           <h3 className="contact-project has-text-centered">
             Get Connected on Social Media</h3>
@@ -50,44 +47,52 @@ const contact = () => (
             <div className="column">
               <div className="card">
                 <div className="card-content">
-                  <Link to='#' className='card-header-title is-centered'>
+                  <a
+                    to='https://twitter.com/MayerMediaCo'
+                    className='card-header-title is-centered'>
                     <h3>Twitter</h3>
                     <hr className="border"/>
                     <i className="card-header-icon bx bxl-twitter bx-border-circle"></i>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="column">
               <div className="card">
                 <div className="card-content">
-                  <Link to='#' className='card-header-title is-centered'>
+                  <a
+                    to='https://www.instagram.com/mayermediaco/'
+                    className='card-header-title is-centered'>
                     <h3>Instagram</h3>
                     <hr className="border"/>
                     <i className="card-header-icon bx bxl-instagram bx-border-circle"></i>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="column">
               <div className="card">
                 <div className="card-content">
-                  <Link to='#' className='card-header-title is-centered'>
+                  <a
+                    href='https://github.com/MayerMediaCo'
+                    className='card-header-title is-centered'>
                     <h3>Github</h3>
                     <hr className="border"/>
                     <i className="card-header-icon bx bxl-github bx-border-circle"></i>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="column">
               <div className="card">
                 <div className="card-content">
-                  <Link to='#' className='card-header-title is-centered'>
+                  <a
+                    href='https://www.facebook.com/mayermediaco/'
+                    className='card-header-title is-centered'>
                     <h3>Facebook</h3>
                     <hr className="border"/>
                     <i className="card-header-icon bx bxl-facebook bx-border-circle"></i>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
