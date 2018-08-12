@@ -50,11 +50,13 @@ const Design = () => (
                   User Interface / User Experience</h3>
               </div>
               <div className="card-content">
-                <p>A proper design should focus on branding, functionality, and accssessibility.</p>
+                <p>A proper design should focus on branding, functionality, and accssessibility.
+                  I design your website with optimization of these elements in mind and provide
+                  all the files necessary to hand off to your team once you are satisfied.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">The proper balance of appealing design and
+                  accssessibility to all users is necessary to attract and convert visitors.</p>
               </div>
             </div>
           </div>
@@ -68,13 +70,14 @@ const Design = () => (
                   Logos</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Your logo is everywhere and is arguably one of the most important elements to
+                  your brand. I work with brands to create logos that are impactful and
+                  recognizable, simple and effective, and an inline with your brand and ideals.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">Logos end up on everything, from shirts to
+                  letterheads. Properly implemented logos will represent your brand in the best
+                  way on every medium.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">
@@ -83,13 +86,14 @@ const Design = () => (
                   Advertising / Promotional</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Your products and services are the life of your business and should be
+                  represented with the utmost care. From product photography to service
+                  advertisements and everything in between, researching and planning for optimal
+                  content is key in digital advertisement.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">Custom designs and photography should be
+                  created for specific marketing campaigns to best represent your brand.</p>
               </div>
             </div>
           </div>
@@ -103,13 +107,14 @@ const Design = () => (
                   Print</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>While print is not as common in the digital age, it is still incredibly
+                  important. By applying an understanding of goals and your market, and tangible
+                  considerations like size and methods of delivery, print materials are created.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">While not utilized as often as before, clean
+                  designs for letterheads, business cards, mailers and other print goods will help
+                  you stand apart from competition.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">

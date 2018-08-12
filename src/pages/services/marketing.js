@@ -38,13 +38,15 @@ const Marketing = () => (
                   Social Media Management</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Social media management takes a ton of planning and engagement, but will pay
+                  off dividends in the long haul. Through research and constant analysis, I will
+                  find your target audience and craft a strategy to help you reach them in their
+                  native habitat.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">Social Media is one of the best ways to get
+                  your brand heard and reach an audience in a meaningful and impactful way when
+                  done with proper care and consistency and can deliver a ton of ROI.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">
@@ -53,13 +55,15 @@ const Marketing = () => (
                   Search Engine Optimization</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>SEO is constantly changing with algorithm updates. Through research, I will
+                  identify keywords to target and help you earn rank on Google and other search
+                  engine algorithms by targeting specific key words, creating domain authority,
+                  and website optimization.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">A Pay-Per-Click ad campaign can and will get
+                  pricey and while SEO is a more long-term strategy, it is the most effective way
+                  to migrate away from PPC ads and grow organic traffic.</p>
               </div>
             </div>
           </div>
@@ -73,13 +77,16 @@ const Marketing = () => (
                   Content Marketing and Management</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Creating impactful content is a great way to increase discoverability, build
+                  trust with your audience, establish authority, and it is great for SEO as well.
+                  I will create a content strategy to help your audience discover and connect with
+                  your brand through keyword research and traffic analysis.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">The more "stuff" you have out in the digital
+                  world increases the potential of being discovered in an organic and helpful way
+                  and can provide much higher quality leads than other methods of digital
+                  marketing.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">
@@ -88,13 +95,15 @@ const Marketing = () => (
                   Pay-Per-Click Advertising</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>PPC advertising can be an effective way to get your brand in front of a wide
+                  range of audiences at once, but can be a huge money sink. Increase your ROI by
+                  using highly targeted campaigns developed through research of your audience and
+                  your conversion goals.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">PPC campaigns can be a great way to jumpstart
+                  your outreach and get your brand heard and can be highly effective when coupled
+                  with more long term digital marketing stratagies.</p>
               </div>
             </div>
           </div>
@@ -108,13 +117,15 @@ const Marketing = () => (
                   E-Mail Marketing</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Email marketing allows you to grow an audience that you have complete control
+                  over. I utilize different services such as Drip or ConvertKit to craft a
+                  campaign to reach your audience directly and personably to maximize impact.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">A proper email marketing campaign is an
+                  effective way to highly monitor your audience interactions, reach your audience
+                  in a more intimate way, and tell your audience about new and exciting things
+                  with your brand.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">
