@@ -6,7 +6,7 @@ import Header from '../components/header/header'
 import CTA from '../components/call-to-action/call-to-action'
 import GSNButton from '../components/buttons/get-started-now'
 
-import Computer from '../assets/computer.png'
+import Logo from '../assets/img/mmc_logo.png'
 
 const IndexPage = () => (
   <Layout>
@@ -134,7 +134,7 @@ const IndexPage = () => (
           </div>
           <div className="column">
             <figure className='image'>
-              <img src={Computer} alt=""/>
+              <img className='logo center-image' src={Logo} alt="Mayer Media Co. logo"/>
             </figure>
           </div>
         </div>
