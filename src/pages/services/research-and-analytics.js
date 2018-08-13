@@ -84,22 +84,24 @@ const ResearchAndAnalytics = () => (
                 <h5 className='content-title'>Why You Need This</h5>
                 <p className="content-subscript">Being able to quickly see and understand your
                   Google Analytics will help you spend less time on the numbers and more time on
-                  actionable steps.</p>
+                  actionable steps to improve your business.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-header">
                 <h3 className='card-header-title content-title'>
-                  Consuling and Strategy Development</h3>
+                  Consulting and Strategy Development</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Roadmapping, research, collaboration, and analysis allows me to work with you
+                  to get over pain points in areas of your business such as marketing, design, and
+                  branding. Research and and planning as well as status updates occur to ensure
+                  you remain on track to reach your goals.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">As this is a very unique and specific approach
+                  to your business problems, you will receive specific guidance and direction to
+                  get the desired results for your brand.</p>
               </div>
             </div>
           </div>
@@ -113,19 +115,20 @@ const ResearchAndAnalytics = () => (
                   Develop Buyer Persona's</h3>
               </div>
               <div className="card-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
-                  laudantium ipsa praesentium autem veritatis velit eaque maxime quasi nulla ad
-                  quisquam inventore illo culpa animi? Facere dignissimos deserunt velit dicta!</p>
+                <p>Careful analysis of your current clients and potential clients you wish to
+                  work with in the future can result in highly detailed, demographically accurate
+                  representations of your audience.</p>
                 <hr className="border"/>
                 <h5 className='content-title'>Why You Need This</h5>
-                <p className="content-subscript">Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Labore impedit facilis dolore doloremque ullam unde.</p>
+                <p className="content-subscript">These detailed representations of your audience
+                  will allow you to focus more directly in your marketing campaigns and discover
+                  and learn more about your niche.</p>
               </div>
             </div>
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-image">
                 <figure className='image center-image is-2by1'>
-                  <img src={Mindmap} alt=""/>
+                  <img src={Mindmap} alt="Mindmap on a laptop"/>
                 </figure>
               </div>
             </div>

@@ -92,7 +92,7 @@ const About = () => (
               </p>
               <p>How does that all tie together? I understand the structure of businesses,
                 both large and small. I understand the importance of budgeting, how to
-                collaborate and acheive set goals. I understand the relationship between company
+                collaborate and achieve set goals. I understand the relationship between company
                 and consumer and what it takes to bridge the gap.
               </p>
               <p>How does this apply to you?</p>
@@ -101,12 +101,12 @@ const About = () => (
                 perspectives to ensure the best possible outcome.</p>
               <p>I work with my clients to fully understand the needs of their business and
                 help bridge gaps over the disconnect that happens in between. I make business
-                decisions soley for the belief of wanting others to grow and exceed in their
+                decisions solely for the belief of wanting others to grow and exceed in their
                 business or creative endeavors.</p>
               <p>
-                I work for the small business oprotunists looking to impact the world with their
-                products and services and the creative individuals looking to stand out and make
-                their mark in their craft.
+                I work for the small business opportunists looking to impact the world with
+                their products and services and the creative individuals looking to stand out
+                and make their mark in their craft.
               </p>
             </div>
           </div>
