@@ -10,7 +10,7 @@ const PostLink = ({post}) => (
     </div>
     <div className="card-title">
       <h5 className='blog-meta is-pulled-left'>{post.frontmatter.date}</h5>
-      <h5 className="blog-meta is-pulled-right">{post.frontmatter.tag}</h5>
+      <h5 className="blog-meta is-pulled-right">{post.frontmatter.tags}</h5>
       <div className="is-clearfix"></div>
       <h3 className='blog-card-title'>
         <Link to ={post.frontmatter.path}>{post.frontmatter.title}
