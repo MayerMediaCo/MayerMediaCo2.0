@@ -1,6 +1,7 @@
 import React from 'react'
 import {graphql} from 'gatsby'
 import Layout from '../components/layout/layout'
+import CTA from '../components/call-to-action/call-to-action'
 
 export default({data}) => {
   const post = data.markdownRemark
@@ -12,16 +13,14 @@ export default({data}) => {
             <h1 className='has-text-centered'>{post.frontmatter.title}</h1>
             <div className="columns">
               <div className="column">
-                <h2 className="blog-sub-text">{post.frontmatter.date}</h2>
+                <p className="blog-sub-text">{post.frontmatter.date}</p>
               </div>
               <div className="column">
-                <h2 className="blog-sub-text has-text-right">{post.frontmatter.tags}</h2>
+                <p className="blog-sub-text has-text-right">{post.frontmatter.tags}</p>
               </div>
             </div>
             <hr className='border'/>
           </div>
-        </section>
-        <section className="section">
           <div className="content">
             <article
               className='mainPostStyle'
@@ -31,6 +30,7 @@ export default({data}) => {
           </div>
         </section>
       </div>
+      <CTA/>
     </Layout>
   )
 }

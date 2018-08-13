@@ -13,7 +13,7 @@ meta_description: >-
   digital marketing efforts.
 author: Danny Mayer
 ---
-# Buyer Personas
+# What are Buyer Personas
 
 Buyer Personas are a relatively new concept, coming with the rise of content marketing, and SHOULD be an integral part of every modern marketing strategy, digital or not. The idea behind the buyer persona is pretty simple, using statistics from actual customers, or your ideal audience, you create fake personas in order to better direct your efforts to fit towards one of your ideal audiences. Depending on the scope of your marketing strategy and how niche your product is, you can many personas or very few, and you can always add and tweak as time goes on.
 
