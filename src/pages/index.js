@@ -127,7 +127,7 @@ const IndexPage = () => (
               <p>I pride myself on creating a partnership with my clients in order to
                 determine their needs, execute a tailored strategy to get results, and educate
                 along the way.</p>
-              <p>Every aspect of your online web presence, from branding and design to content production and visibility on social networks can affect your performance in the digital space. I am dedicated to helping my clients succeed in their business by providing services and content to help bridge the gap on the ever expanding web. <\p>
+              <p>Every aspect of your online web presence, from branding and design to content production and visibility on social networks can affect your performance in the digital space. I am dedicated to helping my clients succeed in their business by providing services and content to help bridge the gap on the ever expanding web. </p>
               <GSNButton/>
             </div>
           </div>
