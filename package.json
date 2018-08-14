@@ -18,7 +18,7 @@
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
     "netlify-cms": "^2.0.8",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.9.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
@@ -35,6 +35,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gatsby-plugin-remove-trailing-slashes": "^1.0.9",
     "prettier": "^1.12.0"
   },
   "repository": {
