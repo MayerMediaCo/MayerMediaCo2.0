@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../../components/layout/layout'
 import CallToAction from '../../components/call-to-action/call-to-action'
 
-import Computer from '../../assets/computer.png'
+import MarketingPhoto from '../../assets/img/marketing.jpg'
 import MarketingIcon from '../../assets/icons/marketing.svg'
 
 const Marketing = () => (
@@ -131,7 +131,7 @@ const Marketing = () => (
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-image">
                 <figure className='image is-2by1'>
-                  <img src={Computer} alt=""/>
+                  <img src={MarketingPhoto} alt=""/>
                 </figure>
               </div>
             </div>
