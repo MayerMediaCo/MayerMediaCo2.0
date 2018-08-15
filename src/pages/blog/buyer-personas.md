@@ -2,6 +2,7 @@
 templateKey: article-page
 title: Buyer Personas
 slug: buyer-personas
+path: blog/buyer-personas
 date: 2018-08-11T17:37:22.853Z
 cover: /img/ben-sweet-456320-unsplash.jpg
 tags:
