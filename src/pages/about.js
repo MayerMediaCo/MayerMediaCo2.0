@@ -70,8 +70,8 @@ const About = () => (
             <blockquote>
               <i className="bx-pull-left bx bxs-quote-left bx-md"></i>
               <p className='about-block-quote'>
-                The most exciting thing about business is not running an empire, it is the grind
-                put in to build the empire.
+                I make business decisions solely for the belief of wanting others to grow and
+                exceed in their business or creative endeavors."
               </p>
             </blockquote>
           </div>
