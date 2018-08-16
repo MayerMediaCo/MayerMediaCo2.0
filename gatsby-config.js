@@ -30,7 +30,6 @@ module.exports = {
         trackingId: "UA-113953663-1"
       }
     },
-    'gatsby-plugin-netlify-cms',
-    `gatsby-plugin-remove-trailing-slashes`
+    'gatsby-plugin-netlify-cms'
   ]
 }
