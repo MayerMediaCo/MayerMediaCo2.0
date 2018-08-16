@@ -13,7 +13,7 @@ const PostLink = ({post}) => (
       <h5 className="blog-meta is-pulled-right">{post.frontmatter.tags}</h5>
       <div className="is-clearfix"></div>
       <h3 className='blog-card-title'>
-        <Link to ={post.frontmatter.path}>{post.frontmatter.title}
+        <Link to ={`/blog/${post.frontmatter.path}`}>{post.frontmatter.title}
         </Link>
       </h3>
     </div>
@@ -24,7 +24,7 @@ const PostLink = ({post}) => (
     </div>
     <footer className="card-footer">
       <div className="card-footer-item bx-fade-right-hover">
-        <Link to={post.frontmatter.path}>Read the Rest of the Article</Link>
+        <Link to={`/blog/${post.frontmatter.path}`}>Read the Rest of the Article</Link>
         <i className="bx bx-chevrons-right"></i>
       </div>
     </footer>
