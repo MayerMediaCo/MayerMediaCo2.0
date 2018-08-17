@@ -8,6 +8,7 @@
     "bulma": "^0.7.1",
     "gatsby": "next",
     "gatsby-link": "^1.6.45",
+    "gatsby-plugin-favicon": "^3.1.2",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-mailchimp": "^2.2.3",

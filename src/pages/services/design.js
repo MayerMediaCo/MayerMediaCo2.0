@@ -120,7 +120,9 @@ const Design = () => (
             <div className="card column is-full-tablet is-half-desktop">
               <div className="card-image">
                 <figure className='image center-image is-2by1'>
-                  <img src={DesignPhoto} alt=""/>
+                  <img
+                    src={DesignPhoto}
+                    alt="A pen laying on top of paper with a wireframe drawn on it."/>
                 </figure>
               </div>
             </div>
