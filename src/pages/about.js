@@ -30,13 +30,17 @@ const About = () => (
             <div className="column">
               <p>
                 I am a creative entrepreneur aiming to help others succeed.</p>
-              <p>From a young age, I had always put all my passion and effort into whatever
-                creative endeavor I was doing at that moment, whether it was music, design,
-                photography, or writing. I believe in breaking down the barriers in your area of
-                expertise as a way of improving your thinking towards the subject. Having years
-                of experience in creative mediums, the drive for absolute perfection and a love
-                for technology drove me towards web design and development as a way to satisfy
-                all the different aspects of my passions.</p>
+              <p>From a young age, I had always put all my passion and effort into whichever
+                endeavor I was going to take on, whether it was music, design, photography, or
+                writing.</p>
+              <p>
+                From my experience I've found that breaking down the barriers in your areas of
+                passion as a way of expressing your creativity to the fullest. Pushing the
+                limits is key to standing out from the crowd.</p>
+              <p>With having years of experience in creative mediums, the drive for absolute
+                perfection and a fascination for technology lead me to web design and
+                development as a way to satisfy all the different aspects of my creativity and
+                passions.</p>
             </div>
             <div className="column">
               <p>I decided to take the leap into the freelance journey as a way to express my

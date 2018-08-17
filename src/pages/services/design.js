@@ -121,6 +121,7 @@ const Design = () => (
               <div className="card-image">
                 <figure className='image center-image is-2by1'>
                   <img
+                    className='is-overlay'
                     src={DesignPhoto}
                     alt="A pen laying on top of paper with a wireframe drawn on it."/>
                 </figure>
