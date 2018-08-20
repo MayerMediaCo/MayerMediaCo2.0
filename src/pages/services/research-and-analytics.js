@@ -14,7 +14,7 @@ const ResearchAndAnalytics = () => (
           <h1 className="title has-text-centered">
             Research and Analytics
           </h1>
-          <div className="has-text-centered”>
+          <div className='has-text-centered'>
             <p>Discover who your audience is, where your traffic comes from, and what they
               enjoy about you.
             </p>
