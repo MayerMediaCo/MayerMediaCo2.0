@@ -61,6 +61,7 @@ export default class Contact extends React.Component {
               className="input"
               placeholder='Name'
               name="name"
+              required
               onChange={this.handleChange}/>
             <span className='icon is-medium is-left'>
               <i className="bx bx-user"></i>
@@ -90,6 +91,7 @@ export default class Contact extends React.Component {
               className="input"
               placeholder='E-Mail Address'
               name="email address"
+              required
               onChange={this.handleChange}/>
             <span className='icon is-medium is-left'>
               <i className="bx bx-envelope"></i>
@@ -133,6 +135,7 @@ export default class Contact extends React.Component {
               name="project details"
               onChange={this.handleChange}
               className='textarea'
+              required
               placeholder='What are you trying to accomplish?'
               rows="10"></textarea>
           </div>
