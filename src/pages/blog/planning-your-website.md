@@ -76,9 +76,9 @@ Although some features may be more appropriate than others, and some will just m
 
 ## **Logistics**
 
-Now lastly, the final area to consider when planning a website is the logistical aspects of it. Logistical aspects are things that include hosting, collecting your assets, and the domains of yo9ur website.
+Now lastly, the final area to consider when planning a website is the logistical aspects of it. Logistical aspects are things that include hosting, collecting your assets, and registering the domains of your website.
 
-Reality is, determining a host to use can be challenging.  Some of the features and specs may be foreign unless you are web savvy, and some may just want you to rip your hair out and quit all together. Do not do that.  Always be weary that sometimes looks can be deceiving...just like that solid 10 on Tinder might be a solid 3 in person. It can be incredibly easy to get dragged into hosts that may not be suitable for your vision or are just plan toxic. Come on, who hosts MySpace nowadays?
+Reality is, determining a host to use can be challenging.  Some of the features and specs may be foreign unless you are web savvy, and some may just want you to rip your hair out and quit all together. Do not do that.  Always be weary that sometimes looks can be deceiving...just like that solid 10 on Tinder might be a solid 3 in person. It can be incredibly easy to get dragged into hosts that may not be suitable for your vision or are just plain toxic.
 
 Hosting providers offer a ton of features that are usually on different paid tiers.  Some of these features include:
 
