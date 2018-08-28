@@ -98,7 +98,7 @@ Dynamic data would be something like Facebook or Reddit.  Everyone logging in h
 
 There are actual benefits to having a server.  Servers provide private real estate for your databases and business needs. This wills tore confidentially and safely, and give your viewers more of a peace of mind. You can query dynamic data by users in a database and give a custom experience sit for the individual message you are portraying.  
 
-However, they do come with their own setbacks,  and need monitoring and maintenance in order to keep it running as smoothly as possible.  Storing data on users can lead to catastrophes, like the recent Facebook situation where suddenly everyone knew where both you and your mother, and every your grandmother lived. Yikes. Servers can also slow down and affect site performance without proper handling or notice to failure.
+However, they do come with their own setbacks,  and need monitoring and maintenance in order to keep it running as smoothly as possible.  Storing data on users can lead to catastrophes, like the recent Facebook situation where suddenly everyone knew where both you and your mother, and even your grandmother lived. Yikes. Servers can also slow down and affect site performance without proper handling or notice to failure.
 
 Great news! There are alternatives to this.
 
@@ -108,7 +108,7 @@ This may seem limiting and intimidating. Rest assued, there are many services av
 
 Assets include the bulk of what will make up your website.  Ranging from logos and images to web copy and domains.  Attention grabbing web design usually stems from having your content throughly worked around them as to not take away from your design, nor the content you have shared. It is crucial to start collecting these assets early to keep your project on track and inline with your goals for success.
 
-Your domain name is another more ambiguous piece of a website for people. When choosing a domain name, you will want to pick something easy to remember, relevant to your brand and one that is scalable. Back to that pizza slice. No one is going to got to ILoveGreasyPizza.com to design their home. There are many services available to register domains with, and, personally, my recommendation is Namecheap. They even have a search function that allows you to check what is available so you don’t end up with a copy right lawsuit on your hands when your website blows up all over the internet.
+Your domain name is another more ambiguous piece of a website for people. When choosing a domain name, you will want to pick something easy to remember, relevant to your brand and one that is scalable. Back to that pizza slice. No one is going to got to ILoveGreasyPizza.com to design their home. There are many services available to register domains with, and, personally, my recommendation is [Namecheap](https://www.namecheap.com/). They even have a search function that allows you to check what is available so you don’t end up with a copy right lawsuit on your hands when your website blows up all over the internet.
 
 Now if you’ve made it this far, congratulations. While some of these things may be a bit beyond your comfort level, and at this point you may even feel that this is not plausible for you, the end of the story is that having an idea of what you want when you initially meet with a designer or developer can help them better understand your needs and better guide you to creating the exact vision you have worked hard to bring to life and put it out there for the world to see.
 
