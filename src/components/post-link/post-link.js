@@ -8,10 +8,15 @@ const PostLink = ({post}) => (
         <img src={post.frontmatter.cover} alt=""/>
       </figure>
     </div>
+    <div className="columns">
+      <div className="column">
+        <h5 className='blog-meta'>{post.frontmatter.date}</h5>
+      </div>
+      <div className="column">
+        <h5 className="blog-meta has-text-right">{post.frontmatter.tags}</h5>
+      </div>
+    </div>
     <div className="card-title">
-      <h5 className='blog-meta is-pulled-left'>{post.frontmatter.date}</h5>
-      <h5 className="blog-meta is-pulled-right">{post.frontmatter.tags}</h5>
-      <div className="is-clearfix"></div>
       <h3 className='blog-card-title'>
         <Link to ={`/blog/${post.frontmatter.path}`}>{post.frontmatter.title}
         </Link>
