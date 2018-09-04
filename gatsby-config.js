@@ -3,8 +3,10 @@ const config = require('./meta/config')
 module.exports = {
   siteMetadata: {
     title: config.siteTitle,
-    siteUrl: config.siteUrl,
-    siteDescription: config.siteDescription
+    twitterHandle: '@mayermediaco',
+    url: 'https://mayermediaco.com',
+    siteDescription: 'A web development, design, and digital marketing freelance business dedicated to' +
+        ' helping small business and creative entrepreneurs succeed.'
   },
   plugins: [
     'gatsby-plugin-react-helmet', {
