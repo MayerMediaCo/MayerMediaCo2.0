@@ -33,23 +33,6 @@ module.exports = {
         trackingId: "UA-113953663-1"
       }
     },
-    'gatsby-plugin-netlify-cms', {
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: "./src/assets/favicon/favicon.png",
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: false,
-          favicons: true,
-          firefox: true,
-          opengraph: false,
-          twitter: false,
-          yandex: false,
-          windows: false
-        }
-      }
-    }
+    'gatsby-plugin-netlify-cms'
   ]
 }
