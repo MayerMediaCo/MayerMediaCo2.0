@@ -33,6 +33,7 @@ module.exports = {
         trackingId: "UA-113953663-1"
       }
     },
-    'gatsby-plugin-netlify-cms'
+    'gatsby-plugin-netlify-cms',
+    `gatsby-plugin-favicon`
   ]
 }
